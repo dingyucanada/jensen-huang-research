@@ -29,7 +29,7 @@ def check_desktop(browser, home, directory):
     errors, remote = [], []
     page.on("pageerror", lambda error: errors.append(str(error)))
     page.on("request", lambda req: remote.append(req.url) if req.url.startswith(("http:", "https:")) else None)
-    page.goto(home)
+    page.goto(home + "#main-content")
     expect(page.get_by_role("heading", name="Evidence timeline")).to_be_visible()
     total = page.evaluate("window.observatoryData.timeline.length")
     expect(page.locator("#timeline-count")).to_have_text(f"{total} records")
@@ -38,6 +38,7 @@ def check_desktop(browser, home, directory):
     page.locator(".featured-row").get_by_role("link", name="Reinstatement").click()
     record = page.locator('[data-record-id="EV-014"]')
     expect(record).to_have_attribute("open", "")
+    expect(record.locator("summary")).to_be_focused()
     expect(record.get_by_text("Nov 22, 2026", exact=True)).to_be_visible()
     expect(record.get_by_text("Nov 23, 2026", exact=True)).to_be_visible()
     assert "000104581026000090" in record.locator(".source-list li a").first.get_attribute("href")
@@ -72,6 +73,10 @@ def check_desktop(browser, home, directory):
     expect(page.locator("#metric-revenue")).to_have_text("$115.84B")
     expect(page.locator("#metric-share")).to_have_text("92.89%")
     expect(page.locator("#metric-rd")).to_have_text("6.43%")
+    page.locator(".skip-link").focus()
+    page.keyboard.press("Enter")
+    expect(page.locator("#main-content")).to_be_focused()
+    expect(page.get_by_role("heading", name="Quarterly financials")).to_be_visible()
     with page.expect_download() as item:
         page.get_by_role("button", name="Download trend charts as PNG").click()
     trend = directory / "quarterly-figure.png"

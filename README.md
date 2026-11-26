@@ -4,7 +4,7 @@ An independent research repository on Jensen Huang, NVIDIA, and the institutions
 
 **Evidence reviewed through November 26, 2026 · v0.2.0**
 
-[Explore the observatory](observatory/index.html) · [Governance timeline](docs/timeline.md) · [Evidence ledger](sources/evidence.md) · [Reproducible metrics](docs/metrics.md) · [Latest briefing](docs/brief-2026-11-26.md)
+[Observatory guide](docs/observatory.md) · [Governance timeline](docs/timeline.md) · [Evidence ledger](sources/evidence.md) · [Reproducible metrics](docs/metrics.md) · [Latest briefing](docs/brief-2026-11-26.md)
 
 | Question | What the record shows |
 |---|---|

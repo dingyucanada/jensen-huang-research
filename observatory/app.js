@@ -479,7 +479,11 @@
     return value.slice(0, 120);
   }
 
-  function present(move) {
+  function present(move, initial = false) {
+    if (!initial && location.hash === "#main-content") {
+      get("main-content").focus();
+      return;
+    }
     const {view, params, direct} = fromLocation();
     state.view = view;
     state.params = params;
@@ -501,6 +505,7 @@
     const row = selected ? [...get(view).querySelectorAll("[data-record-id]")]
       .find((node) => node.dataset.recordId === selected) : null;
     (row || get(view)).scrollIntoView({block: "start"});
+    (row?.querySelector("summary") || get(`${view}-title`)).focus({preventScroll: true});
   }
 
   function setup() {
@@ -542,7 +547,7 @@
     }
     if ("ResizeObserver" in window) new ResizeObserver(paintCharts).observe(get("financials"));
     else window.addEventListener("resize", paintCharts);
-    present(Boolean(location.hash));
+    present(Boolean(location.hash), true);
   }
 
   setup();
