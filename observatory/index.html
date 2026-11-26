@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="An independent, source-linked record of NVIDIA’s governance, financials, chip policy, and engineering history.">
+  <meta property="og:title" content="NVIDIA Evidence Observatory">
+  <meta property="og:description" content="Explore NVIDIA's governance, financials, chip policy and technical history with direct source links.">
+  <meta property="og:type" content="website">
+  <title>NVIDIA Evidence Observatory</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="charts.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to evidence</a>
+  <header class="site-bar">
+    <div class="shell masthead">
+      <a class="wordmark" href="#overview"><span class="wordmark-mark" aria-hidden="true">N</span><span>NVIDIA Evidence Observatory</span></a>
+      <a class="github-link" href="https://github.com/dingyucanada/jensen-huang-research">GitHub repository</a>
+    </div>
+  </header>
+
+  <main id="main-content" class="shell" tabindex="-1">
+    <section class="hero" id="overview" aria-labelledby="title">
+      <div class="hero-intro">
+        <p class="eyebrow">Jensen Huang Research Project</p>
+        <h1 id="title">NVIDIA’s public<br class="desktop-break"> record, in context.</h1>
+        <p class="hero-description">Follow board decisions, financial results, chip policy and technical milestones back to their original sources.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#timeline">Explore the timeline</a>
+          <button type="button" class="button secondary" data-download="quarterly_financials.csv">Download financial data</button>
+        </div>
+        <p class="snapshot" id="snapshot"><span class="snapshot-dot" aria-hidden="true"></span> Research snapshot</p>
+      </div>
+      <section class="feature" aria-labelledby="feature-title">
+        <p class="eyebrow">Governance case study</p>
+        <h2 id="feature-title">When did NVIDIA’s CEO change?</h2>
+        <div id="featured-events" class="featured-events"></div>
+        <p class="feature-note">The SEC filings specify the effective dates. The public disclosures followed the next day.</p>
+        <button type="button" class="feature-download" id="download-governance">Download the date comparison as PNG</button>
+      </section>
+    </section>
+
+    <noscript>
+      <p class="empty">Enable JavaScript for search, charts and exports. The research is also available in the
+        <a href="https://github.com/dingyucanada/jensen-huang-research">source repository</a>.</p>
+    </noscript>
+
+    <nav class="section-nav" aria-label="Research sections">
+      <a href="#timeline" data-view="timeline" aria-current="page">Timeline</a>
+      <a href="#financials" data-view="financials">Financials</a>
+      <a href="#policy" data-view="policy">Chip policy</a>
+      <a href="#archive" data-view="archive">Technical archive</a>
+    </nav>
+
+    <section class="workspace" id="timeline" aria-labelledby="timeline-title">
+      <header class="section-header">
+        <div>
+          <h2 id="timeline-title" tabindex="-1">Evidence timeline</h2>
+          <p>Search public records. Event and disclosure dates are shown separately.</p>
+        </div>
+        <button type="button" class="button secondary" id="download-timeline">Download filtered CSV</button>
+      </header>
+      <div class="controls" role="group" aria-label="Timeline filters">
+        <label class="control search"><span id="timeline-search-label">Find records</span><input type="search" id="timeline-search" aria-labelledby="timeline-search-label" placeholder="Search events or evidence IDs" maxlength="120"></label>
+        <label class="control"><span id="timeline-category-label">Category</span><select id="timeline-category" aria-labelledby="timeline-category-label"><option value="">All categories</option><option value="governance">Governance</option><option value="financials">Financials</option><option value="policy">Policy</option><option value="technology">Technology</option></select></label>
+        <label class="control"><span id="timeline-status-label">Evidence status</span><select id="timeline-status" aria-labelledby="timeline-status-label"><option value="">All statuses</option><option value="documented">Documented</option><option value="attributed">Attributed statement</option><option value="scheduled">Scheduled</option></select></label>
+        <label class="control"><span id="timeline-order-label">Order</span><select id="timeline-order" aria-labelledby="timeline-order-label"><option value="">Newest first</option><option value="oldest">Oldest first</option><option value="disclosed">Latest disclosure</option></select></label>
+      </div>
+      <div class="results-meta"><p id="timeline-count" role="status"></p><button class="text-button" type="button" id="clear-timeline">Clear filters</button></div>
+      <div id="timeline-results" class="record-list"></div>
+    </section>
+
+    <section class="workspace" id="financials" aria-labelledby="financials-title" hidden>
+      <header class="section-header">
+        <div>
+          <h2 id="financials-title" tabindex="-1">Quarterly financials</h2>
+          <p>Reported revenue, Data Center mix and GAAP research and development.</p>
+        </div>
+        <div class="inline-actions">
+          <button type="button" class="button secondary" data-download="quarterly_financials.csv">Quarterly CSV</button>
+          <button type="button" class="button secondary" data-download="annual_financials.csv">Annual CSV</button>
+        </div>
+      </header>
+      <div class="controls financial-controls">
+        <label class="control"><span id="financial-range-label">Display period</span><select id="financial-range" aria-labelledby="financial-range-label"><option value="">All quarters</option><option value="recent">Latest eight quarters</option><option value="fy24">FY2024 onward</option></select></label>
+        <label class="control"><span id="financial-quarter-label">Inspect quarter</span><select id="financial-quarter" aria-labelledby="financial-quarter-label"></select></label>
+        <button type="button" class="button secondary chart-action" id="download-finance-image">Download trend charts as PNG</button>
+      </div>
+      <div class="charts" aria-describedby="financial-note">
+        <article class="chart-card">
+          <h3>Consolidated revenue</h3>
+          <p class="metric" id="metric-revenue"></p>
+          <canvas id="chart-revenue" role="img" aria-label="Quarterly consolidated revenue trend. Exact values are in the table below."></canvas>
+        </article>
+        <article class="chart-card">
+          <h3>Data Center share</h3>
+          <p class="metric" id="metric-share"></p>
+          <canvas id="chart-share" role="img" aria-label="Quarterly Data Center share of revenue. Exact values are in the table below."></canvas>
+        </article>
+        <article class="chart-card">
+          <h3>GAAP R&amp;D intensity</h3>
+          <p class="metric" id="metric-rd"></p>
+          <canvas id="chart-rd" role="img" aria-label="Quarterly GAAP research and development as a share of revenue. Exact values are in the table below."></canvas>
+        </article>
+      </div>
+      <p class="method-note" id="financial-note">Fiscal quarters follow NVIDIA’s calendar. Data Center is an issuer-defined market category. Revenue and R&amp;D are consolidated GAAP amounts. Select a quarter or tap a chart to inspect a period.</p>
+      <div id="financial-detail"></div>
+      <details class="panel table-panel" open>
+        <summary>Quarter-by-quarter source table</summary>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable quarterly financial table">
+          <table>
+            <caption>Quarterly observations in USD millions and percentages</caption>
+            <thead><tr><th scope="col">Quarter</th><th scope="col">Ended</th><th scope="col">Revenue</th><th scope="col">Data Center</th><th scope="col">GAAP R&amp;D</th><th scope="col">Data Center share</th><th scope="col">R&amp;D intensity</th><th scope="col">Sources</th></tr></thead>
+            <tbody id="financial-table"></tbody>
+          </table>
+        </div>
+      </details>
+    </section>
+
+    <section class="workspace" id="policy" aria-labelledby="policy-title" hidden>
+      <header class="section-header">
+        <div>
+          <h2 id="policy-title" tabindex="-1">Chip policy tracker</h2>
+          <p>Track the dates and procedural status of selected U.S. rules, filings and oversight records.</p>
+        </div>
+        <button type="button" class="button secondary" data-download="policy_tracker.csv">Download policy CSV</button>
+      </header>
+      <div class="policy-overview" id="policy-overview"></div>
+      <div class="controls">
+        <label class="control search"><span id="policy-search-label">Find policy records</span><input type="search" id="policy-search" aria-labelledby="policy-search-label" placeholder="Search rules, institutions or dates" maxlength="120"></label>
+        <label class="control"><span id="policy-kind-label">Record type</span><select id="policy-kind" aria-labelledby="policy-kind-label"><option value="">All types</option><option value="rule">Rule</option><option value="agency_action">Agency announcement</option><option value="oversight">Congressional oversight</option><option value="enforcement">Investigative action</option><option value="disclosure">Issuer disclosure</option></select></label>
+        <label class="control"><span id="policy-status-label">Status</span><select id="policy-status" aria-labelledby="policy-status-label"><option value="">All statuses</option><option value="scheduled">Scheduled</option><option value="rescheduled">Rescheduled</option><option value="held">Held</option><option value="canceled">Canceled</option><option value="open">Open</option><option value="effective">Effective</option><option value="issued">Issued</option><option value="historical">Historical</option><option value="superseded">Superseded</option><option value="reported">Reported</option><option value="requested">Requested</option></select></label>
+      </div>
+      <p class="results-meta" id="policy-count" role="status"></p>
+      <div id="policy-results" class="record-list"></div>
+    </section>
+
+    <section class="workspace" id="archive" aria-labelledby="archive-title" hidden>
+      <header class="section-header">
+        <div>
+          <h2 id="archive-title" tabindex="-1">Oral history and CUDA archive</h2>
+          <p>Navigate to the relevant part of a recording, then compare it with dated technical records.</p>
+        </div>
+        <div class="inline-actions">
+          <button type="button" class="button secondary" data-download="archive_index.csv">Interview index CSV</button>
+          <button type="button" class="button secondary" data-download="technology_milestones.csv">Milestones CSV</button>
+        </div>
+      </header>
+      <div class="controls">
+        <label class="control search"><span id="archive-search-label">Find archive entries</span><input type="search" id="archive-search" aria-labelledby="archive-search-label" placeholder="Search topics, publishers or passages" maxlength="120"></label>
+        <label class="control"><span id="archive-topic-label">Topic</span><select id="archive-topic" aria-labelledby="archive-topic-label"><option value="">All topics</option><option value="oral_history">Oral history</option><option value="founding">Founding</option><option value="leadership">Leadership</option><option value="cuda">CUDA and research</option><option value="engineering">Engineering</option></select></label>
+      </div>
+      <p class="results-meta" id="archive-count" role="status"></p>
+      <div id="archive-results" class="archive-grid"></div>
+      <div class="subsection">
+        <h3>Technical milestones</h3>
+        <p class="section-dek">Dates refer to the public research, launch or shipment statement cited for each entry.</p>
+        <ol class="milestone-list" id="milestones"></ol>
+      </div>
+      <article class="panel benchmark" aria-labelledby="benchmark-title">
+        <header>
+          <p class="eyebrow">Worked comparison</p>
+          <h3 id="benchmark-title">Two systems, one MLPerf workload</h3>
+          <p>Matched Dell submissions for Llama 2 70B 99.9 · MLPerf Inference v6.1 · Closed Datacenter · eight accelerators per system.</p>
+        </header>
+        <label class="control benchmark-control"><span id="benchmark-scenario-label">Test scenario</span><select id="benchmark-scenario" aria-labelledby="benchmark-scenario-label"><option value="Offline">Offline</option><option value="Server">Server</option></select></label>
+        <p id="benchmark-scenario-note" class="method-note"></p>
+        <div id="benchmark-bars" class="benchmark-bars"></div>
+        <p id="benchmark-note" class="method-note"></p>
+        <div class="inline-actions">
+          <button type="button" data-download="benchmark_comparison.csv" class="button secondary">Download comparison CSV</button>
+          <a href="https://mlcommons.org/benchmarks/inference-datacenter/">MLCommons methodology</a>
+          <a id="benchmark-source" href="https://results.mlcommons.org/">Original result rows</a>
+        </div>
+      </article>
+    </section>
+
+    <p class="feedback" role="status" id="feedback" hidden></p>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <p>Independent research by the Jensen Huang Research Project contributors.</p>
+      <div><a href="https://github.com/dingyucanada/jensen-huang-research/blob/main/docs/methodology.md">Method</a><a href="https://github.com/dingyucanada/jensen-huang-research/issues">Corrections</a></div>
+    </div>
+  </footer>
+</body>
+</html>

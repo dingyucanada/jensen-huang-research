@@ -1,0 +1,17 @@
+{
+  "count": 2,
+  "results": [
+    {
+      "document_number": "2026-23529",
+      "publication_date": "2026-11-19",
+      "type": "Rule",
+      "title": "Addressing Remote Access to Advanced Semiconductors"
+    },
+    {
+      "document_number": "2026-55555",
+      "publication_date": "2026-11-25",
+      "type": "Proposed Rule",
+      "title": "Synthetic fixture rule for editorial intake"
+    }
+  ]
+}

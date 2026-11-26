@@ -2,15 +2,22 @@
 
 An independent research repository on Jensen Huang, NVIDIA, and the institutions shaping AI infrastructure. Trace who did what, when it became public, and which source supports each claim.
 
-**Evidence reviewed through November 26, 2026 · v0.1.0**
+**Evidence reviewed through November 26, 2026 · v0.2.0**
 
-[Governance timeline](docs/timeline.md) · [Evidence ledger](sources/evidence.md) · [Reproducible metrics](docs/metrics.md) · [Latest briefing](docs/brief-2026-11-26.md)
+[Observatory guide](docs/observatory.md) · [Governance timeline](docs/timeline.md) · [Evidence ledger](sources/evidence.md) · [Reproducible metrics](docs/metrics.md) · [Latest briefing](docs/brief-2026-11-26.md)
 
 | Question | What the record shows |
 |---|---|
 | When did NVIDIA's CEO change? | EDGAR records Huang's resignation as effective November 11 and reinstatement as effective November 22, 2026. The filings were public the following day in each case. [Departure](sources/evidence.md#clm-001) · [Return](sources/evidence.md#clm-002) |
 | How much of NVIDIA's revenue comes from Data Center? | **89.72% in FY2026**, calculated from $193.737B in Data Center end-market revenue and $215.938B in consolidated revenue. [Annual financials](docs/metrics.md#annual-nvidia-financials) |
+| What do the latest results show? | In FY2027 Q3, NVIDIA reported **$115.844B** in revenue, including **$107.610B** in its Data Center market category. GAAP R&D was **$7.454B**. [Quarterly financials and source locators](docs/quarterly-financial-panel.md) |
 | What is the next public record to watch? | A House committee announcement listed December 1 and 2 transcribed interviews. The Senate Banking Committee listed Huang for a December 3 public hearing. [House](sources/evidence.md#clm-005) · [Senate](sources/evidence.md#clm-006) |
+
+## Explore the data and archives
+
+The [NVIDIA Evidence Observatory](docs/observatory.md) includes a searchable timeline, 27 quarterly financial observations, a chip policy tracker, timestamped interviews and an MLPerf worked comparison. Open `observatory/index.html` after cloning or extracting the repository. No browser setup or network connection is needed for filters and charts.
+
+[Quarterly financial panel](docs/quarterly-financial-panel.md) · [Policy tracker](docs/chip-policy-tracker.md) · [Oral history and CUDA archive](docs/oral-history-and-cuda.md)
 
 ## Read the research
 
@@ -29,11 +36,13 @@ Run from the project root with Python 3.9 or newer. The build uses the bundled C
 
 ```sh
 python3 scripts/research.py build
+python3 scripts/observatory.py build
 python3 scripts/research.py check
+python3 scripts/observatory.py check
 python3 -m unittest discover -s tests -v
 ```
 
-The [data dictionary](data/README.md) describes the inputs and units. The [methodology](docs/methodology.md) defines the evidence labels and explains how to correct a claim. The [editorial watch](watch/README.md) stages SEC filing metadata for review through draft pull requests.
+The [data dictionary](data/README.md) describes the inputs and units. The [methodology](docs/methodology.md) defines the evidence labels and explains how to correct a claim. The [editorial watch](watch/README.md) can stage SEC filings and Federal Register notices for review through draft pull requests.
 
 ## Contribute or cite
 

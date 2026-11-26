@@ -224,6 +224,10 @@
       {
         "source_id": "SRC-020",
         "locator": "Management and reporting structure transcript"
+      },
+      {
+        "source_id": "SRC-064",
+        "locator": "Publisher conference recording"
       }
     ],
     "boundary": "These are statements about his approach. An audited organization chart or independent observation would be stronger evidence of practice.",
@@ -260,8 +264,8 @@
         "locator": "Opening announcement"
       },
       {
-        "source_id": "SRC-017",
-        "locator": "Case summary and chronology"
+        "source_id": "SRC-039",
+        "locator": "Opening statement and Phase 2 inquiry summary"
       }
     ],
     "boundary": "Use the completed and abandoned transaction statuses independently.",
@@ -393,6 +397,485 @@
       }
     ],
     "boundary": "The announcement establishes the reported engagement and does not represent findings.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-025",
+    "status": "documented",
+    "statement": "NVIDIA's FY2021 quarterly consolidated revenue, Data Center revenue and GAAP R&D expense are drawn from its dated earnings filings and quarterly market tables.",
+    "evidence": [
+      {
+        "source_id": "SRC-100",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2020-04-26"
+      },
+      {
+        "source_id": "SRC-101",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2020-07-26"
+      },
+      {
+        "source_id": "SRC-102",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2020-10-25"
+      },
+      {
+        "source_id": "SRC-103",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2021-01-31"
+      },
+      {
+        "source_id": "SRC-040",
+        "locator": "Data Center and total revenue rows, FY2021 columns"
+      }
+    ],
+    "boundary": "All amounts are USD millions. Data Center is the top-level market measure. Quarterly published amounts can differ from annual totals by rounding.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-026",
+    "status": "documented",
+    "statement": "NVIDIA's FY2022 quarterly consolidated revenue, Data Center revenue and GAAP R&D expense are drawn from its dated earnings filings and quarterly market tables.",
+    "evidence": [
+      {
+        "source_id": "SRC-104",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2021-05-02"
+      },
+      {
+        "source_id": "SRC-105",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2021-08-01"
+      },
+      {
+        "source_id": "SRC-106",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2021-10-31"
+      },
+      {
+        "source_id": "SRC-107",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2022-01-30"
+      },
+      {
+        "source_id": "SRC-040",
+        "locator": "Data Center and total revenue rows, FY2022 columns"
+      },
+      {
+        "source_id": "SRC-041",
+        "locator": "Data Center and total revenue rows, FY2022 columns"
+      }
+    ],
+    "boundary": "All amounts are USD millions. Data Center is the top-level market measure. Quarterly published amounts can differ from annual totals by rounding.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-027",
+    "status": "documented",
+    "statement": "NVIDIA's FY2023 quarterly consolidated revenue, Data Center revenue and GAAP R&D expense are drawn from its dated earnings filings and quarterly market tables.",
+    "evidence": [
+      {
+        "source_id": "SRC-108",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2022-05-01"
+      },
+      {
+        "source_id": "SRC-109",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2022-07-31"
+      },
+      {
+        "source_id": "SRC-110",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2022-10-30"
+      },
+      {
+        "source_id": "SRC-111",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2023-01-29"
+      },
+      {
+        "source_id": "SRC-042",
+        "locator": "Data Center and total revenue rows, FY2023 columns"
+      }
+    ],
+    "boundary": "All amounts are USD millions. Data Center is the top-level market measure. Quarterly published amounts can differ from annual totals by rounding.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-028",
+    "status": "documented",
+    "statement": "NVIDIA's FY2024 quarterly consolidated revenue, Data Center revenue and GAAP R&D expense are drawn from its dated earnings filings and quarterly market tables.",
+    "evidence": [
+      {
+        "source_id": "SRC-112",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2023-04-30"
+      },
+      {
+        "source_id": "SRC-113",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2023-07-30"
+      },
+      {
+        "source_id": "SRC-114",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2023-10-29"
+      },
+      {
+        "source_id": "SRC-115",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2024-01-28"
+      },
+      {
+        "source_id": "SRC-042",
+        "locator": "Data Center and total revenue rows, FY2024 columns"
+      }
+    ],
+    "boundary": "All amounts are USD millions. Data Center is the top-level market measure. Quarterly published amounts can differ from annual totals by rounding.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-029",
+    "status": "documented",
+    "statement": "NVIDIA's FY2025 quarterly consolidated revenue, Data Center revenue and GAAP R&D expense are drawn from its dated earnings filings and quarterly market tables.",
+    "evidence": [
+      {
+        "source_id": "SRC-116",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2024-04-28"
+      },
+      {
+        "source_id": "SRC-117",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2024-07-28"
+      },
+      {
+        "source_id": "SRC-118",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2024-10-27"
+      },
+      {
+        "source_id": "SRC-119",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2025-01-26"
+      },
+      {
+        "source_id": "SRC-043",
+        "locator": "Data Center and total revenue rows, FY2025 columns"
+      }
+    ],
+    "boundary": "All amounts are USD millions. Data Center is the top-level market measure. Quarterly published amounts can differ from annual totals by rounding.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-030",
+    "status": "documented",
+    "statement": "NVIDIA's FY2026 quarterly consolidated revenue, Data Center revenue and GAAP R&D expense are drawn from its dated earnings filings and quarterly market tables.",
+    "evidence": [
+      {
+        "source_id": "SRC-120",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2025-04-27"
+      },
+      {
+        "source_id": "SRC-121",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2025-07-27"
+      },
+      {
+        "source_id": "SRC-122",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2025-10-26"
+      },
+      {
+        "source_id": "SRC-123",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2026-01-25"
+      },
+      {
+        "source_id": "SRC-043",
+        "locator": "Data Center and total revenue rows, FY2026 columns"
+      }
+    ],
+    "boundary": "All amounts are USD millions. Data Center is the top-level market measure. Quarterly published amounts can differ from annual totals by rounding.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-031",
+    "status": "documented",
+    "statement": "NVIDIA's FY2027 quarterly consolidated revenue, Data Center revenue and GAAP R&D expense are drawn from its dated earnings filings and quarterly market tables.",
+    "evidence": [
+      {
+        "source_id": "SRC-124",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2026-04-26"
+      },
+      {
+        "source_id": "SRC-125",
+        "locator": "Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2026-07-26"
+      },
+      {
+        "source_id": "SRC-013",
+        "locator": "Condensed Consolidated Statements of Income, three months ended October 25, 2026"
+      },
+      {
+        "source_id": "SRC-043",
+        "locator": "Data Center and total revenue rows, FY2027 columns"
+      }
+    ],
+    "boundary": "All amounts are USD millions. Data Center is the top-level market measure. Quarterly published amounts can differ from annual totals by rounding.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-032",
+    "status": "documented",
+    "statement": "BIS published the AI Diffusion framework in January 2025 and announced planned rescission and non-enforcement in May 2025. The November 2026 interim final rule formalized rescission.",
+    "evidence": [
+      {
+        "source_id": "SRC-044",
+        "locator": "Summary and dates"
+      },
+      {
+        "source_id": "SRC-045",
+        "locator": "Opening statement and enforcement instruction"
+      },
+      {
+        "source_id": "SRC-037",
+        "locator": "Summary and rescission discussion"
+      }
+    ],
+    "boundary": "Publication, the non-enforcement announcement and formal rescission were distinct actions.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-033",
+    "status": "attributed",
+    "statement": "NVIDIA's April 15 filing reported that the U.S. government had notified the company of an H20 export licensing requirement on April 9 and said on April 14 it would apply indefinitely.",
+    "evidence": [
+      {
+        "source_id": "SRC-046",
+        "locator": "Item 8.01, dates and product scope"
+      }
+    ],
+    "boundary": "This record is NVIDIA’s account of notices it received. The later 10-K provides the reported accounting impact.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-034",
+    "status": "documented",
+    "statement": "California’s Attorney General announced service of an investigative subpoena on NVIDIA on November 19, 2026.",
+    "evidence": [
+      {
+        "source_id": "SRC-047",
+        "locator": "Date and opening paragraphs"
+      }
+    ],
+    "boundary": "The announcement establishes service and scope of the investigation. It does not establish a violation or findings.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-035",
+    "status": "documented",
+    "statement": "Senators Warren and Coons publicly requested preservation of records related to NVIDIA and advanced chip exports on November 11, 2026.",
+    "evidence": [
+      {
+        "source_id": "SRC-048",
+        "locator": "Statement and linked letter"
+      }
+    ],
+    "boundary": "A preservation request is an oversight action.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-036",
+    "status": "attributed",
+    "statement": "Huang discussed NVIDIA’s early product choices and setbacks in a Computer History Museum oral history recorded August 9, 2024 and made public in December 2025.",
+    "evidence": [
+      {
+        "source_id": "SRC-049",
+        "locator": "Publisher description, acquisition 2024.0118"
+      },
+      {
+        "source_id": "SRC-018",
+        "locator": "Museum biographical profile"
+      },
+      {
+        "source_id": "SRC-065",
+        "locator": "Transcript catalog record 102809034"
+      }
+    ],
+    "boundary": "A retrospective first-person account. Use contemporaneous records for product outcomes and dates.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-037",
+    "status": "attributed",
+    "statement": "Huang recounted the first six months of NVIDIA in a 2009 Stanford talk and discussed early product decisions, AlexNet, management and networking in a 2023 Acquired interview.",
+    "evidence": [
+      {
+        "source_id": "SRC-050",
+        "locator": "Clip overview"
+      },
+      {
+        "source_id": "SRC-063",
+        "locator": "Linked printable transcript and April 8, 2009 dateline"
+      },
+      {
+        "source_id": "SRC-051",
+        "locator": "Publisher chapters at 02:54, 17:27, 27:13 and 39:31"
+      }
+    ],
+    "boundary": "Video timestamps identify topic entry points. The speakers’ interpretations require corroboration.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-038",
+    "status": "documented",
+    "statement": "NVIDIA’s history records the GeForce 256 milestone in 1999. It announced DGX-1 in 2016, Hopper and H100 in 2022, and Blackwell in 2024.",
+    "evidence": [
+      {
+        "source_id": "SRC-021",
+        "locator": "1999 entry"
+      },
+      {
+        "source_id": "SRC-054",
+        "locator": "Opening announcement"
+      },
+      {
+        "source_id": "SRC-055",
+        "locator": "Hopper and H100 announcement"
+      },
+      {
+        "source_id": "SRC-056",
+        "locator": "Opening Blackwell announcement"
+      }
+    ],
+    "boundary": "Issuer milestones establish announcements. Shipping, adoption and performance require separate observations.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-039",
+    "status": "attributed",
+    "statement": "NVIDIA marked two decades of CUDA in 2026. At SC26 it announced a rack-scale Vera CPU platform, and its November earnings materials reported that Vera Rubin NVL72 systems had begun shipping.",
+    "evidence": [
+      {
+        "source_id": "SRC-052",
+        "locator": "Publisher chapter at 06:02"
+      },
+      {
+        "source_id": "SRC-053",
+        "locator": "SC26 dateline and CUDA history"
+      },
+      {
+        "source_id": "SRC-057",
+        "locator": "Opening announcement"
+      },
+      {
+        "source_id": "SRC-013",
+        "locator": "Data Center highlights"
+      }
+    ],
+    "boundary": "Company statements support the announced status. Future deployments and performance need independent verification.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-040",
+    "status": "derived",
+    "statement": "The same two eight-accelerator Dell systems were submitted in the Offline and Server scenarios of the Llama 2 70B 99.9 MLPerf Inference v6.1 benchmark. The published throughputs were 113,101 and 103,792 tokens per second in Offline, and 106,898 and 103,932 in Server, for the B300 and MI355X configurations respectively.",
+    "evidence": [
+      {
+        "source_id": "SRC-058",
+        "locator": "Dell rows XE9785L_x86_B300-SXM-270GBx8_TRT and XE9785L_8xMI355X"
+      },
+      {
+        "source_id": "SRC-059",
+        "locator": "Closed Datacenter Inference definitions"
+      },
+      {
+        "source_id": "SRC-060",
+        "locator": "Results attribution guidance"
+      },
+      {
+        "source_id": "SRC-067",
+        "locator": "Scenarios and metrics table and performance constraints"
+      }
+    ],
+    "boundary": "Two selected available whole-system submissions with different software stacks. Compare the systems within each scenario. The results do not isolate accelerator speed, cost or power.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-041",
+    "status": "documented",
+    "statement": "BIS announced its remote-access interim final rule on November 16, 2026. The rule was published and took effect on November 19, with comments due January 19, 2027.",
+    "evidence": [
+      {
+        "source_id": "SRC-061",
+        "locator": "Dateline and opening rule announcement"
+      },
+      {
+        "source_id": "SRC-037",
+        "locator": "Dates and summary"
+      }
+    ],
+    "boundary": "Effective dates and compliance timing can differ for individual provisions. The tracker records the publication-level dates.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-042",
+    "status": "documented",
+    "statement": "NVIDIA separately publishes its market platform revenue series. Its Q3 FY2027 supplementary table gives $107.610 billion of Data Center revenue and identifies the comparative periods recast following market presentation changes.",
+    "evidence": [
+      {
+        "source_id": "SRC-043",
+        "locator": "Data Center row and recasting note"
+      },
+      {
+        "source_id": "SRC-062",
+        "locator": "Revenue by Market Platform table"
+      }
+    ],
+    "boundary": "The tracker uses the top-level Data Center series. It does not infer historical submarket splits where the issuer has not published them.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-043",
+    "status": "documented",
+    "statement": "NVIDIA’s published CUDA paper in 2008 documented a scalable parallel programming model using GPU threads and a hierarchy of cooperating blocks.",
+    "evidence": [
+      {
+        "source_id": "SRC-022",
+        "locator": "Publication metadata and abstract"
+      }
+    ],
+    "boundary": "This is a technical publication milestone rather than a product release.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-044",
+    "status": "documented",
+    "statement": "A BIS rule published November 25, 2026 added seven entities in Malaysia, Singapore and Thailand to the Entity List. The rule lists November 23 as its effective date.",
+    "evidence": [
+      {
+        "source_id": "SRC-066",
+        "locator": "Summary, Dates and Entity List Decisions"
+      }
+    ],
+    "boundary": "The rule records a regulatory action and the agency’s stated diversion-risk rationale. It does not establish separate findings about NVIDIA or its executives.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-045",
+    "status": "documented",
+    "statement": "NVIDIA’s archived corporate timeline records its RIVA 128 launch in 1997.",
+    "evidence": [
+      {
+        "source_id": "SRC-068",
+        "locator": "April entry"
+      }
+    ],
+    "boundary": "The issuer’s historical record supports the introduction. This record does not establish explanations for subsequent commercial outcomes.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-046",
+    "status": "documented",
+    "statement": "BIS published a rule on December 5, 2024 that refined advanced computing and semiconductor manufacturing controls and added foreign-produced direct product rules. It lists December 2 as its effective date.",
+    "evidence": [
+      {
+        "source_id": "SRC-069",
+        "locator": "Summary, Dates and description of changes"
+      }
+    ],
+    "boundary": "Published changes had provision-specific compliance dates. Use historical rules for chronology and current regulations for legal application.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-047",
+    "status": "documented",
+    "statement": "On January 16, 2025, BIS published and made effective an interim final rule adding due diligence measures for advanced computing integrated circuits. Its dates section distinguishes general effectiveness from January 31 compliance timing for the new text.",
+    "evidence": [
+      {
+        "source_id": "SRC-070",
+        "locator": "Summary and Dates"
+      }
+    ],
+    "boundary": "This item records a dated rule and distinguishes its stated effective and compliance dates.",
     "reviewed_on": "2026-11-26"
   }
 ]

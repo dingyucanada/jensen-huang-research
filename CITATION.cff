@@ -4,13 +4,16 @@ title: "Jensen Huang Research Project"
 type: dataset
 authors:
   - name: "Jensen Huang Research Project contributors"
-version: "0.1.0"
+version: "0.2.0"
+repository-code: "https://github.com/dingyucanada/jensen-huang-research"
 date-released: "2026-11-26"
-abstract: "A dated evidence ledger, governance chronology and reproducible research data on Jensen Huang, NVIDIA and AI infrastructure."
+abstract: "A dated evidence ledger, governance chronology, quarterly finances, policy tracker and oral history archive on Jensen Huang, NVIDIA and AI infrastructure."
 keywords:
   - NVIDIA
   - Jensen Huang
   - corporate governance
   - semiconductor export controls
   - open research
+  - CUDA
+  - financial data
 license: CC-BY-4.0

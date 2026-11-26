@@ -1,0 +1,12 @@
+id,event_date,title,summary,event_id,claim_id
+TEC-001,1999,GeForce 256,A programmable-computing history starts with graphics-specific products. NVIDIA’s own 1999 terminology is documented in its anniversary history.,EV-024,CLM-038
+TEC-002,2006,CUDA unveiled,NVIDIA dates CUDA’s unveiling to 2006. Its later technical paper shows what the programming model exposed to developers.,EV-002,CLM-015
+TEC-003,2008-03-01,Scalable Parallel Programming with CUDA,"The authors present a parallel programming model built around grids, blocks and threads on a GPU.",EV-025,CLM-043
+TEC-004,2012,AlexNet paper,"The published ImageNet work describes GPU training. This is a record of the experiment, distinct from later accounts of what it meant to NVIDIA.",EV-003,CLM-015
+TEC-005,2016-04-05,DGX-1 announced,A specific system announcement marks the transition from accelerator components to NVIDIA-branded integrated deep learning systems.,EV-026,CLM-038
+TEC-006,2020-04-27,Mellanox acquisition completed,"NVIDIA announced the closing of its acquisition, adding a networking business to its systems strategy.",EV-004,CLM-016
+TEC-007,2022-03-22,Hopper and H100 announced,NVIDIA published the architecture and accelerator announcement. Evidence date is the public announcement.,EV-027,CLM-038
+TEC-008,2024-03-18,Blackwell announced,"NVIDIA announced a new platform. The milestone records introduction, with later deployment evidence tracked separately.",EV-028,CLM-038
+TEC-009,2026-11-16,CUDA at 20 and Vera CPU at SC26,The SC26 materials paired the CUDA retrospective with an announcement of the Vera CPU rack-scale platform for scientific computing.,EV-034,CLM-039
+TEC-010,2026-11-17,Initial Rubin shipments reported,NVIDIA’s earnings materials reported that Vera Rubin NVL72 production shipments had begun.,EV-035,CLM-039
+TEC-011,1997-04,RIVA 128 launched,NVIDIA’s 1997 timeline places the product launch in April. Read the dated milestone alongside Huang’s later account of early product strategy.,EV-039,CLM-045

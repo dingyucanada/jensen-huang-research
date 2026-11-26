@@ -15,4 +15,8 @@ jobs:
         with:
           persist-credentials: false
       - run: python3 scripts/research.py check
+      - run: python3 scripts/observatory.py check
       - run: python3 -m unittest discover -s tests -v
+      - run: |
+          node --check observatory/app.js
+          node --check observatory/charts.js
