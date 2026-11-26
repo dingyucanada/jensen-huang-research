@@ -10,6 +10,7 @@ An independent research repository on Jensen Huang, NVIDIA, and the institutions
 |---|---|
 | When did NVIDIA's CEO change? | EDGAR records Huang's resignation as effective November 11 and reinstatement as effective November 22, 2026. The filings were public the following day in each case. [Departure](sources/evidence.md#clm-001) · [Return](sources/evidence.md#clm-002) |
 | How much of NVIDIA's revenue comes from Data Center? | **89.72% in FY2026**, calculated from $193.737B in Data Center end-market revenue and $215.938B in consolidated revenue. [Annual financials](docs/metrics.md#annual-nvidia-financials) |
+| What do the latest results show? | In FY2027 Q3, NVIDIA reported **$115.844B** in revenue, including **$107.610B** in its Data Center market category. GAAP R&D was **$7.454B**. [Quarterly financials and source locators](docs/quarterly-financial-panel.md) |
 | What is the next public record to watch? | A House committee announcement listed December 1 and 2 transcribed interviews. The Senate Banking Committee listed Huang for a December 3 public hearing. [House](sources/evidence.md#clm-005) · [Senate](sources/evidence.md#clm-006) |
 
 ## Explore the data and archives
@@ -41,7 +42,7 @@ python3 scripts/observatory.py check
 python3 -m unittest discover -s tests -v
 ```
 
-The [data dictionary](data/README.md) describes the inputs and units. The [methodology](docs/methodology.md) defines the evidence labels and explains how to correct a claim. The [editorial watch](watch/README.md) stages SEC filing metadata for review through draft pull requests.
+The [data dictionary](data/README.md) describes the inputs and units. The [methodology](docs/methodology.md) defines the evidence labels and explains how to correct a claim. The [editorial watch](watch/README.md) can stage SEC filings and Federal Register notices for review through draft pull requests.
 
 ## Contribute or cite
 

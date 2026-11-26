@@ -35,13 +35,13 @@
         </div>
         <p class="snapshot" id="snapshot"><span class="snapshot-dot" aria-hidden="true"></span> Research snapshot</p>
       </div>
-      <aside class="feature" aria-labelledby="feature-title">
+      <section class="feature" aria-labelledby="feature-title">
         <p class="eyebrow">Governance case study</p>
         <h2 id="feature-title">When did NVIDIA’s CEO change?</h2>
         <div id="featured-events" class="featured-events"></div>
         <p class="feature-note">The SEC filings specify the effective dates. The public disclosures followed the next day.</p>
         <button type="button" class="feature-download" id="download-governance">Download the date comparison as PNG</button>
-      </aside>
+      </section>
     </section>
 
     <noscript>
@@ -64,7 +64,7 @@
         </div>
         <button type="button" class="button secondary" id="download-timeline">Download filtered CSV</button>
       </header>
-      <div class="controls" aria-label="Timeline filters">
+      <div class="controls" role="group" aria-label="Timeline filters">
         <label class="control search"><span id="timeline-search-label">Find records</span><input type="search" id="timeline-search" aria-labelledby="timeline-search-label" placeholder="Search events or evidence IDs" maxlength="120"></label>
         <label class="control"><span id="timeline-category-label">Category</span><select id="timeline-category" aria-labelledby="timeline-category-label"><option value="">All categories</option><option value="governance">Governance</option><option value="financials">Financials</option><option value="policy">Policy</option><option value="technology">Technology</option></select></label>
         <label class="control"><span id="timeline-status-label">Evidence status</span><select id="timeline-status" aria-labelledby="timeline-status-label"><option value="">All statuses</option><option value="documented">Documented</option><option value="attributed">Attributed statement</option><option value="scheduled">Scheduled</option></select></label>
