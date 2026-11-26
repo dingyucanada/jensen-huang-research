@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Cite this research project with its version and the claim IDs you used."
+title: "Jensen Huang Research Project"
+type: dataset
+authors:
+  - name: "Jensen Huang Research Project contributors"
+version: "0.1.0"
+date-released: "2026-11-26"
+abstract: "A dated evidence ledger, governance chronology and reproducible research data on Jensen Huang, NVIDIA and AI infrastructure."
+keywords:
+  - NVIDIA
+  - Jensen Huang
+  - corporate governance
+  - semiconductor export controls
+  - open research
+license: CC-BY-4.0

@@ -1,0 +1,7 @@
+# 4. CUDA and the economics of technical infrastructure
+
+NVIDIA dates CUDA's unveiling to 2006. A 2008 paper by NVIDIA engineers documents the programming model. The 2012 AlexNet paper records GPU training in a specific research result. Together they show that a programmable computing platform preceded an important demonstration in deep learning. NVIDIA's 2020 completion of its Mellanox acquisition supplies a separate milestone in the expansion into networking. [CLM-015](../sources/evidence.md#clm-015) · [CLM-016](../sources/evidence.md#clm-016)
+
+Systems, networking, libraries and developer tools can be complementary. A customer evaluating another accelerator may have to consider porting time, numerical validation and operator support as well as hardware price and throughput. A useful comparison would record workload, model, software versions, deployment scale, engineer hours, energy and service levels. Performance advantages and switching costs are distinct explanations that a paired comparison can test. [CLM-021](../sources/evidence.md#clm-021)
+
+In NVIDIA's filings, the **Data Center end market** rose from 40.16% of consolidated revenue in FY2021 to 89.72% in FY2026. R&D spending increased from $3.924B to $18.497B over that window, while the ratio to revenue fell. The denominator for these indicators is NVIDIA's own revenue. Market share and market definition would require external denominators and a separate study. [CLM-009](../sources/evidence.md#clm-009) · [Financial calculations](../docs/metrics.md#annual-nvidia-financials)

@@ -1,0 +1,9 @@
+# 5. Export controls and semiconductor policy
+
+BIS published advanced-computing restrictions in October 2022 and updates in October 2023. The January 15, 2026 final rule revised the license review policy for specified commodities, including certain H200-class chips, to case-by-case review for exports from the United States to China or Macau under stated conditions. Record the legal instrument, its publication date, the effective date of the relevant provision and the separate status of any license. [CLM-017](../sources/evidence.md#clm-017) · [CLM-011](../sources/evidence.md#clm-011)
+
+NVIDIA's FY2026 filing reported an April 2025 H20 license requirement and a first-quarter $4.5B charge tied to excess inventory and purchase obligations. It also reported receiving licenses for certain customers in August 2025. The accounting charge and licenses document two ways regulation affects commercial operations. The project keeps this case separate from the January 2026 H200 rule, which describes a different policy action and scope. [CLM-012](../sources/evidence.md#clm-012)
+
+On November 19, 2026, BIS published an interim final rule addressing remote access to advanced computing and adding certain licensing requirements. The change extends the policy analysis to the provision of compute through foreign data centers. It is a separate regulatory action from the January review policy. [CLM-023](../sources/evidence.md#clm-023)
+
+Huang's December 2025 CSIS discussion provides a record of an interested party's policy argument. The FTC's NVIDIA–Arm docket gives evidence of regulatory opposition to a proposed transaction that the parties abandoned. To test influence, compare dated stakeholder requests with agency reasoning, the final rule and other submissions. [CLM-018](../sources/evidence.md#clm-018) · [CLM-016](../sources/evidence.md#clm-016)

@@ -1,0 +1,39 @@
+id,published_on,kind,publisher,title,stable_ref,url,accessed_on
+SRC-001,2026-11-12,filing,NVIDIA,Form 8-K on CEO departure and interim appointment,SEC:0001045810-26-000082,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm,2026-11-26
+SRC-002,2026-11-23,filing,NVIDIA,Form 8-K on CEO and director reinstatement,SEC:0001045810-26-000090,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm,2026-11-26
+SRC-003,2026-11-23,issuer,NVIDIA Investor Relations,Board announces reinstatement and oversight measures,,https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx,2026-11-26
+SRC-004,2026-11-08,issuer,NVIDIA Investor Relations,Statement from NVIDIA Board of Directors,,https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/,2026-11-26
+SRC-005,2026-11-17,government,House Permanent Select Committee on Intelligence,Jensen Huang and NVIDIA agree to appear before Congress,,https://intelligence.house.gov/2026/11/17/jensen-huang-and-nvidia-agree-to-appear-before-congress/,2026-11-26
+SRC-006,,government,"Senate Committee on Banking, Housing, and Urban Affairs",Protecting America's AI Advantage hearing listing,,https://www.banking.senate.gov/hearings/protecting-americas-ai-advantage-oversight-of-us-export-controls,2026-11-26
+SRC-007,2026-11-25,government,Office of Senator Cory Booker,Booker requests answers from NVIDIA on reinstatement,,https://www.booker.senate.gov/news/press/booker-demands-answers-from-nvidia-on-trumps-intervention-in-ceo-jensen-huangs-reinstatement,2026-11-26
+SRC-008,2026-11-23,journalism,Associated Press,NVIDIA board reinstates Jensen Huang as CEO,,https://apnews.com/article/39d4b34ffaa867b4e669893b5fd5028f,2026-11-26
+SRC-009,2026-11-25,journalism,Reuters via Investing.com,NVIDIA faces questions from top Senate antitrust Democrat,,https://www.investing.com/news/politics-news/nvidia-faces-questions-from-top-senate-antitrust-democrat-5051227,2026-11-26
+SRC-010,2026-02-25,filing,NVIDIA,FY2026 Form 10-K,SEC:0001045810-26-000021,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm,2026-11-26
+SRC-011,2023-02-24,filing,NVIDIA,FY2023 Form 10-K,SEC:0001045810-23-000017,https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm,2026-11-26
+SRC-012,2026-05-12,filing,NVIDIA,2026 definitive proxy statement,SEC:0001045810-26-000036,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm,2026-11-26
+SRC-013,2026-11-17,filing,NVIDIA,Q3 FY2027 results filed as Form 8-K Exhibit 99.1,SEC:0001045810-26-000088,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm,2026-11-26
+SRC-014,2026-01-15,government,Bureau of Industry and Security,Revision to License Review Policy for Advanced Computing Commodities,FR:2026-00789,https://www.govinfo.gov/content/pkg/FR-2026-01-15/pdf/2026-00789.pdf,2026-11-26
+SRC-015,2022-10-13,government,Bureau of Industry and Security,Advanced computing and semiconductor manufacturing export controls,FR:2022-21658,https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf,2026-11-26
+SRC-016,2023-10-25,government,Bureau of Industry and Security,Advanced computing and end-use controls updates and corrections,FR:2023-23055,https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23055.pdf,2026-11-26
+SRC-017,,government,Federal Trade Commission,NVIDIA and Arm case docket,FTC:2110015,https://www.ftc.gov/legal-library/browse/cases-proceedings/2110015-nvidiaarm-matter,2026-11-26
+SRC-018,,institutional,Computer History Museum,Jensen Huang 2024 Fellow profile,,https://computerhistory.org/profile/jensen-huang/,2026-11-26
+SRC-019,2024-04-25,interview,Stanford Graduate School of Business,Jensen Huang on first-principles thinking,,https://www.gsb.stanford.edu/insights/jensen-huang-how-use-first-principles-thinking-drive-decisions,2026-11-26
+SRC-020,2024,interview,Stripe Sessions,A conversation with NVIDIA's Jensen Huang,,https://stripe.com/sessions/2024/a-conversation-with-nvidias-jensen-huang,2026-11-26
+SRC-021,,issuer,NVIDIA,Corporate timeline,,https://www.nvidia.com/en-us/about-nvidia/corporate-timeline/,2026-11-26
+SRC-022,2008-03-01,research,John Nickolls and coauthors,Scalable Parallel Programming with CUDA,,https://research.nvidia.com/publication/2008-03_scalable-parallel-programming-cuda,2026-11-26
+SRC-023,2012,research,"Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton",ImageNet Classification with Deep Convolutional Neural Networks,,https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html,2026-11-26
+SRC-024,2020-04-27,issuer,NVIDIA Newsroom,NVIDIA completes acquisition of Mellanox,,https://nvidianews.nvidia.com/news/nvidia-completes-acquisition-of-mellanox-creating-major-force-driving-next-gen-data-centers,2026-11-26
+SRC-025,2025-12-03,interview,Center for Strategic and International Studies,NVIDIA's Jensen Huang on securing American leadership on AI,,https://www.csis.org/analysis/nvidias-jensen-huang-securing-american-leadership-ai,2026-11-26
+SRC-026,1986,research,David J. Teece,Profiting from technological innovation,DOI:10.1016/0048-7333(86)90027-2,https://doi.org/10.1016/0048-7333(86)90027-2,2026-11-26
+SRC-027,2019,research,Henry Farrell and Abraham L. Newman,Weaponized Interdependence,DOI:10.1162/isec_a_00351,https://www.belfercenter.org/publication/weaponized-interdependence-how-global-economic-networks-shape-state-coercion,2026-11-26
+SRC-028,,market_data,ChartExchange,NVDA historical prices,,https://chartexchange.com/symbol/nasdaq-nvda/historical/,2026-11-26
+SRC-029,,market_data,ChartExchange,SPY historical prices,,https://chartexchange.com/symbol/nyse-spy/historical/,2026-11-26
+SRC-030,,market_data,ChartExchange,SOXX historical prices,,https://chartexchange.com/symbol/nasdaq-soxx/historical/,2026-11-26
+SRC-031,2026-11-23,journalism,Associated Press,US stocks rally after NVIDIA leadership announcement,,https://apnews.com/article/49ba1beba78fa4ed2bd5898029f79c91,2026-11-26
+SRC-032,2026-11-12,issuer,NVIDIA Investor Relations,NVIDIA announces CEO transition,,https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx,2026-11-26
+SRC-033,2026-11-24,government,House Foreign Affairs Committee minority,Ranking Member Meeks calls for a public hearing,,https://democrats-foreignaffairs.house.gov/2026/11/meeks-calls-for-public-hfac-hearing-with-nvidia-ceo-jensen-huang/,2026-11-26
+SRC-034,2026-11-24,government,Senate Banking Committee minority,Five senators issue joint statement on reinstatement,,https://www.banking.senate.gov/newsroom/minority/joint-statement-from-senators-coons-warren-wyden-reed-cantwell-on-nvidia-decision-to-reinstate-jensen-huang-as-ceo,2026-11-26
+SRC-035,2026-11-23,filing,NVIDIA,Reinstatement announcement filed as Form 8-K Exhibit 99.1,,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nov23pressrelease.htm,2026-11-26
+SRC-036,2026-11-17,interview,NVIDIA earnings call transcript by Bloomberg,Q3 FY2027 earnings call,,https://s201.q4cdn.com/141608511/files/content_files/NVDA-3Q27-Earnings-Transcript.pdf,2026-11-26
+SRC-037,2026-11-19,government,Bureau of Industry and Security,Addressing Remote Access to Advanced Semiconductors,FR:2026-23529,https://www.govinfo.gov/content/pkg/FR-2026-11-19/html/2026-23529.htm,2026-11-26
+SRC-038,2026-11-10,issuer,NVIDIA Investor Relations,Statement from the Independent Members of the NVIDIA Board,,https://investor.nvidia.com/news/press-release-details/2026/Statement-from-the-Independent-Members-of-the-NVIDIA-Board/default.aspx,2026-11-26

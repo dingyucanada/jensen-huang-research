@@ -1,0 +1,24 @@
+id,event_date,disclosed_on,precision,status,event,claim_id
+EV-001,1993,,year,documented,NVIDIA co-founded,CLM-013
+EV-002,2006,,year,documented,NVIDIA dates the CUDA unveiling to this year,CLM-015
+EV-003,2012,,year,documented,AlexNet paper published,CLM-015
+EV-004,2020-04-27,2020-04-27,day,documented,NVIDIA announces completion of the Mellanox acquisition,CLM-016
+EV-005,2022-02,,month,documented,Proposed NVIDIA–Arm acquisition abandoned,CLM-016
+EV-006,2022-10-13,2022-10-13,day,documented,BIS publishes advanced computing and semiconductor manufacturing controls,CLM-017
+EV-007,2023-10-25,2023-10-25,day,documented,BIS publishes advanced computing and end-use control updates,CLM-017
+EV-008,2025-04,,month,attributed,NVIDIA says it was informed of an H20 export license requirement,CLM-012
+EV-009,2026-01-15,2026-01-15,day,documented,Conditional BIS license review rule takes effect,CLM-011
+EV-010,2026-03-23,2026-05-12,day,documented,Measurement date for Huang beneficial ownership in proxy,CLM-008
+EV-011,2026-11-08,2026-11-08,day,attributed,NVIDIA announces independent board inquiry,CLM-003
+EV-012,2026-11-11,2026-11-12,day,documented,Board accepts resignation and appoints interim CEO and board chair,CLM-001
+EV-013,2026-11-17,2026-11-17,day,documented,NVIDIA releases fiscal Q3 FY2027 results,CLM-010
+EV-014,2026-11-22,2026-11-23,day,documented,Board reinstates Huang as president and CEO and director,CLM-002
+EV-015,2026-11-23,2026-11-23,day,attributed,NVIDIA says the inquiry continues and describes new compliance oversight,CLM-003
+EV-016,2026-11-24,2026-11-24,day,documented,House ranking member calls for open hearing and five senators issue a separate statement,CLM-020
+EV-017,2026-11-25,2026-11-25,day,documented,Senator Booker publicly requests information from NVIDIA,CLM-007
+EV-018,2026-12-01,2026-11-17,day,scheduled,Huang House transcribed interview scheduled,CLM-005
+EV-019,2026-12-02,2026-11-17,day,scheduled,Teter House transcribed interview scheduled,CLM-005
+EV-020,2026-12-03,,day,scheduled,Huang listed as witness at Senate Banking public hearing,CLM-006
+EV-021,2026-11-10,2026-11-10,day,attributed,NVIDIA says independent board members retained outside counsel,CLM-024
+EV-022,2026-11-17,2026-11-17,day,attributed,Board chair says the board does not then intend to reinstate Huang,CLM-022
+EV-023,2026-11-19,2026-11-19,day,documented,BIS publishes remote access interim final rule,CLM-023

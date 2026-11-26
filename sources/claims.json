@@ -1,0 +1,398 @@
+[
+  {
+    "id": "CLM-001",
+    "status": "documented",
+    "statement": "NVIDIA's board accepted Huang's resignation as president, CEO and director effective November 11, 2026. It appointed CFO Colette Kress interim CEO and Harvey Jones board chair. The filing and announcement were dated November 12.",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Item 5.02"
+      },
+      {
+        "source_id": "SRC-032",
+        "locator": "Transition announcement"
+      }
+    ],
+    "boundary": "Use SEC event date for the board action and the filing date for disclosure.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-002",
+    "status": "documented",
+    "statement": "NVIDIA's board reinstated Huang as president, CEO and director effective November 22, 2026, and filed the change on November 23. Kress continued as CFO and Jones as board chair.",
+    "evidence": [
+      {
+        "source_id": "SRC-002",
+        "locator": "Item 5.02"
+      },
+      {
+        "source_id": "SRC-003",
+        "locator": "Opening paragraphs"
+      },
+      {
+        "source_id": "SRC-008",
+        "locator": "Lead and leadership details"
+      },
+      {
+        "source_id": "SRC-035",
+        "locator": "Opening paragraphs"
+      }
+    ],
+    "boundary": "The company release used immediate language on November 23. The 8-K supplies the effective date.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-003",
+    "status": "attributed",
+    "statement": "NVIDIA said its independent-director inquiry would continue after reinstatement and disclosed a National Security and Export Control Committee and a search for a chief compliance officer.",
+    "evidence": [
+      {
+        "source_id": "SRC-004",
+        "locator": "Board statement"
+      },
+      {
+        "source_id": "SRC-003",
+        "locator": "Final substantive paragraphs"
+      },
+      {
+        "source_id": "SRC-035",
+        "locator": "Final substantive paragraphs"
+      }
+    ],
+    "boundary": "These records establish the board's disclosures. The underlying allegations, motive and ultimate findings remain outside the factual claim.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-004",
+    "status": "attributed",
+    "statement": "NVIDIA reported that senior U.S. government officials provided input before the reinstatement decision.",
+    "evidence": [
+      {
+        "source_id": "SRC-003",
+        "locator": "Opening paragraph"
+      },
+      {
+        "source_id": "SRC-035",
+        "locator": "Opening paragraph"
+      },
+      {
+        "source_id": "SRC-008",
+        "locator": "Coverage of the reinstatement"
+      }
+    ],
+    "boundary": "The board statement is evidence of its account of input. The weight or effect of that input remains open.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-005",
+    "status": "scheduled",
+    "statement": "House committee chairs announced transcribed interviews for Huang on December 1 and NVIDIA General Counsel Tim Teter on December 2, 2026.",
+    "evidence": [
+      {
+        "source_id": "SRC-005",
+        "locator": "Closing paragraph"
+      }
+    ],
+    "boundary": "Future dates as of the review cutoff. Check for changes and records of completion.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-006",
+    "status": "scheduled",
+    "statement": "The Senate Banking Committee listed Huang as a witness for a December 3, 2026 public hearing on U.S. export controls.",
+    "evidence": [
+      {
+        "source_id": "SRC-006",
+        "locator": "Event date and witnesses"
+      }
+    ],
+    "boundary": "Event listing accessed at cutoff. Scheduled date is distinct from publication date.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-007",
+    "status": "documented",
+    "statement": "Senator Cory Booker requested information from NVIDIA's board chair on November 25, 2026, about the reinstatement and competition concerns.",
+    "evidence": [
+      {
+        "source_id": "SRC-007",
+        "locator": "Announcement and linked letter"
+      },
+      {
+        "source_id": "SRC-009",
+        "locator": "Reuters account of the letter"
+      }
+    ],
+    "boundary": "The request is public. Assertions in the letter remain attributed.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-008",
+    "status": "documented",
+    "statement": "NVIDIA reported Huang's beneficial ownership as 870,604,104 shares, or 3.58%, as of March 23, 2026. Its May proxy also described nine of ten directors as independent under Nasdaq standards.",
+    "evidence": [
+      {
+        "source_id": "SRC-012",
+        "locator": "Security Ownership of Certain Beneficial Owners and Management and Independence of the Board"
+      }
+    ],
+    "boundary": "Point-in-time disclosures. Apply the table footnotes and avoid reading governance effectiveness from director counts.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-009",
+    "status": "documented",
+    "statement": "NVIDIA's FY2021–FY2026 revenue, Data Center end-market revenue and GAAP research and development expenses are available in its FY2023 and FY2026 annual filings.",
+    "evidence": [
+      {
+        "source_id": "SRC-011",
+        "locator": "Consolidated Statements of Income and Revenue by End Market"
+      },
+      {
+        "source_id": "SRC-010",
+        "locator": "Consolidated Statements of Income and Revenue by End Market"
+      }
+    ],
+    "boundary": "The end-market series is distinct from operating segments. Use the consolidated statements for R&D.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-010",
+    "status": "documented",
+    "statement": "NVIDIA reported $115.844 billion total quarterly revenue and approximately $107.6 billion Data Center revenue for Q3 FY2027, ended October 25, 2026.",
+    "evidence": [
+      {
+        "source_id": "SRC-013",
+        "locator": "Highlights and Condensed Consolidated Statements of Income"
+      }
+    ],
+    "boundary": "The Data Center figure has lower source precision. Quarterly figures stay separate from the annual series.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-011",
+    "status": "documented",
+    "statement": "The January 2026 BIS final rule instituted conditional case-by-case export license review for specified advanced computing commodities from the United States to China or Macau.",
+    "evidence": [
+      {
+        "source_id": "SRC-014",
+        "locator": "Summary, effective date and Section II"
+      }
+    ],
+    "boundary": "Scope is the historical final rule. Verify later amendments and the applicable rules for any current use.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-012",
+    "status": "attributed",
+    "statement": "NVIDIA reported a $4.5 billion FY2026 Q1 charge for H20 inventory and purchase obligations after a U.S. license requirement in April 2025. It reported receiving certain H20 licenses in August 2025.",
+    "evidence": [
+      {
+        "source_id": "SRC-010",
+        "locator": "MD&A, Gross Margin and discussion of export controls"
+      }
+    ],
+    "boundary": "An accounting charge measures a different quantity from forgone sales. Licenses disclosed were limited.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-013",
+    "status": "documented",
+    "statement": "Huang and two co-founders established NVIDIA in 1993. His electrical engineering degrees are from Oregon State University and Stanford University.",
+    "evidence": [
+      {
+        "source_id": "SRC-018",
+        "locator": "Biographical profile"
+      },
+      {
+        "source_id": "SRC-021",
+        "locator": "1993 entry"
+      }
+    ],
+    "boundary": "The museum and issuer histories corroborate the founding.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-014",
+    "status": "attributed",
+    "statement": "Huang described first-principles reasoning at Stanford and a broad direct reporting structure at Stripe Sessions in 2024.",
+    "evidence": [
+      {
+        "source_id": "SRC-019",
+        "locator": "Interview transcript"
+      },
+      {
+        "source_id": "SRC-020",
+        "locator": "Management and reporting structure transcript"
+      }
+    ],
+    "boundary": "These are statements about his approach. An audited organization chart or independent observation would be stronger evidence of practice.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-015",
+    "status": "documented",
+    "statement": "NVIDIA dates CUDA's unveiling to 2006. The 2008 CUDA paper describes its parallel programming model, and the 2012 AlexNet paper documents GPU-based neural-network training.",
+    "evidence": [
+      {
+        "source_id": "SRC-021",
+        "locator": "2006 entry"
+      },
+      {
+        "source_id": "SRC-022",
+        "locator": "Paper abstract and model"
+      },
+      {
+        "source_id": "SRC-023",
+        "locator": "Abstract and training methods"
+      }
+    ],
+    "boundary": "Multiple milestones support the history. They do not establish any individual's unique contribution.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-016",
+    "status": "documented",
+    "statement": "NVIDIA completed its Mellanox acquisition in 2020. NVIDIA and SoftBank abandoned the proposed Arm transaction in 2022 following regulatory opposition.",
+    "evidence": [
+      {
+        "source_id": "SRC-024",
+        "locator": "Opening announcement"
+      },
+      {
+        "source_id": "SRC-017",
+        "locator": "Case summary and chronology"
+      }
+    ],
+    "boundary": "Use the completed and abandoned transaction statuses independently.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-017",
+    "status": "documented",
+    "statement": "BIS published advanced-computing export control rules in October 2022 and updates in October 2023.",
+    "evidence": [
+      {
+        "source_id": "SRC-015",
+        "locator": "Summary and dates"
+      },
+      {
+        "source_id": "SRC-016",
+        "locator": "Summary and dates"
+      }
+    ],
+    "boundary": "Publication and provision-specific effective dates differ.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-018",
+    "status": "attributed",
+    "statement": "Huang discussed the relationship between AI leadership and U.S. policy at CSIS in December 2025.",
+    "evidence": [
+      {
+        "source_id": "SRC-025",
+        "locator": "Event transcript"
+      }
+    ],
+    "boundary": "Stakeholder argument. Policy decisions require separate evidence.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-019",
+    "status": "derived",
+    "statement": "November 23 close-to-close price returns from November 20 were approximately 31.48% for NVDA, 4.71% for SPY and 13.63% for SOXX. NVDA exceeded SOXX by 17.85 percentage points.",
+    "evidence": [
+      {
+        "source_id": "SRC-028",
+        "locator": "Close column for November 20 and 23"
+      },
+      {
+        "source_id": "SRC-029",
+        "locator": "Close column for November 20 and 23"
+      },
+      {
+        "source_id": "SRC-030",
+        "locator": "Close column for November 20 and 23"
+      },
+      {
+        "source_id": "SRC-031",
+        "locator": "November 23 broad-market reporting"
+      }
+    ],
+    "boundary": "Use the currently displayed closing values. The prior report used a different November 23 SOXX close. Price movements coexist with other market events.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-020",
+    "status": "documented",
+    "statement": "The House Foreign Affairs ranking member called for a public hearing on November 24. Five senators issued a separate statement on November 24 about Huang's return.",
+    "evidence": [
+      {
+        "source_id": "SRC-033",
+        "locator": "Opening statement"
+      },
+      {
+        "source_id": "SRC-034",
+        "locator": "Joint statement opening and date"
+      }
+    ],
+    "boundary": "Records of legislative speech. A request for a hearing does not schedule one.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-021",
+    "status": "interpretation",
+    "statement": "Complementary assets and interdependence provide testable ways to examine the links among technical assets, organization and influence.",
+    "evidence": [
+      {
+        "source_id": "SRC-026",
+        "locator": "Framework on complementary assets"
+      },
+      {
+        "source_id": "SRC-027",
+        "locator": "Network structures and state authority"
+      }
+    ],
+    "boundary": "The application to NVIDIA is the project's analytical framework.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-022",
+    "status": "attributed",
+    "statement": "On the November 17 earnings call, board chair Harvey Jones said the board had no intention at that time of reinstating Huang as CEO.",
+    "evidence": [
+      {
+        "source_id": "SRC-036",
+        "locator": "Page 2, Harvey C. Jones opening remarks"
+      }
+    ],
+    "boundary": "This is a dated statement of intent. The board's later action appears in CLM-002.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-023",
+    "status": "documented",
+    "statement": "BIS published an interim final rule on November 19, 2026 addressing remote access to advanced computing and adding certain licensing requirements.",
+    "evidence": [
+      {
+        "source_id": "SRC-037",
+        "locator": "Summary, dates and regulatory changes"
+      }
+    ],
+    "boundary": "The rule concerns specified activities and products. This entry records the published policy action.",
+    "reviewed_on": "2026-11-26"
+  },
+  {
+    "id": "CLM-024",
+    "status": "attributed",
+    "statement": "NVIDIA said the board's independent members had retained outside counsel for the inquiry on November 10, 2026.",
+    "evidence": [
+      {
+        "source_id": "SRC-038",
+        "locator": "Statement body and dateline"
+      }
+    ],
+    "boundary": "The announcement establishes the reported engagement and does not represent findings.",
+    "reviewed_on": "2026-11-26"
+  }
+]

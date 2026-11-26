@@ -1,0 +1,32 @@
+name: Propose EDGAR updates
+on:
+  schedule:
+    - cron: '19 13 * * 1-5'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: edgar-editorial-intake
+  cancel-in-progress: false
+jobs:
+  propose:
+    if: github.ref_name == github.event.repository.default_branch && vars.ENABLE_EDGAR_WATCH == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 7
+    env:
+      SEC_CONTACT: ${{ vars.SEC_CONTACT }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Collect filing metadata
+        run: |
+          python3 scripts/research.py check
+          python3 -m unittest discover -s tests -v
+          python3 scripts/edgar_watch.py
+      - name: Open a draft pull request for new candidates
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE_BRANCH: ${{ github.event.repository.default_branch }}
+        run: bash scripts/propose_edgar_pr.sh
