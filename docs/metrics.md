@@ -19,11 +19,37 @@ Endpoint CAGR was **66.90%** for total revenue and **96.01%** for Data Center. D
 
 ## Quarterly results
 
-Amounts are USD millions. Data Center is rounded as reported. See [CLM-010](../sources/evidence.md#clm-010).
+Amounts are USD millions as published. The dataset links to each earnings filing and market table.
 
-| Fiscal quarter | End date | Revenue | Data Center | GAAP R&D |
-|---|---|---:|---:|---:|
-| Q3 FY2027 | 2026-10-25 | 115,844 | ~107,600 | 7,454 |
+| Fiscal quarter | End date | Revenue | Data Center | GAAP R&D | Data Center share | R&D intensity | Sources |
+|---|---|---:|---:|---:|---:|---:|---|
+| Q1 FY2021 | 2020-04-26 | 3,080 | 1,141 | 735 | 37.05% | 23.86% | [SRC-100](<https://www.sec.gov/Archives/edgar/data/1045810/000104581020000063/nvda-20200521.htm>) · [SRC-040](<https://s201.q4cdn.com/141608511/files/doc_financials/2022/q2/Rev_by_Mkt_Qtrly_Trend_Q222.pdf>) |
+| Q2 FY2021 | 2020-07-26 | 3,866 | 1,752 | 997 | 45.32% | 25.79% | [SRC-101](<https://www.sec.gov/Archives/edgar/data/1045810/000104581020000145/nvda-20200819.htm>) · [SRC-040](<https://s201.q4cdn.com/141608511/files/doc_financials/2022/q2/Rev_by_Mkt_Qtrly_Trend_Q222.pdf>) |
+| Q3 FY2021 | 2020-10-25 | 4,726 | 1,900 | 1,047 | 40.20% | 22.15% | [SRC-102](<https://www.sec.gov/Archives/edgar/data/1045810/000104581020000187/nvda-20201118.htm>) · [SRC-040](<https://s201.q4cdn.com/141608511/files/doc_financials/2022/q2/Rev_by_Mkt_Qtrly_Trend_Q222.pdf>) |
+| Q4 FY2021 | 2021-01-31 | 5,003 | 1,903 | 1,147 | 38.04% | 22.93% | [SRC-103](<https://www.sec.gov/Archives/edgar/data/1045810/000104581021000007/nvda-20210224.htm>) · [SRC-040](<https://s201.q4cdn.com/141608511/files/doc_financials/2022/q2/Rev_by_Mkt_Qtrly_Trend_Q222.pdf>) |
+| Q1 FY2022 | 2021-05-02 | 5,661 | 2,048 | 1,153 | 36.18% | 20.37% | [SRC-104](<https://www.sec.gov/Archives/edgar/data/1045810/000104581021000063/nvda-20210526.htm>) · [SRC-040](<https://s201.q4cdn.com/141608511/files/doc_financials/2022/q2/Rev_by_Mkt_Qtrly_Trend_Q222.pdf>) |
+| Q2 FY2022 | 2021-08-01 | 6,507 | 2,366 | 1,245 | 36.36% | 19.13% | [SRC-105](<https://www.sec.gov/Archives/edgar/data/1045810/000104581021000128/nvda-20210818.htm>) · [SRC-041](<https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q1FY24/Rev_by_Mkt_Qtrly_Trend_Q124.pdf>) |
+| Q3 FY2022 | 2021-10-31 | 7,103 | 2,936 | 1,403 | 41.33% | 19.75% | [SRC-106](<https://www.sec.gov/Archives/edgar/data/1045810/000104581021000160/nvda-20211117.htm>) · [SRC-041](<https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q1FY24/Rev_by_Mkt_Qtrly_Trend_Q124.pdf>) |
+| Q4 FY2022 | 2022-01-30 | 7,643 | 3,263 | 1,466 | 42.69% | 19.18% | [SRC-107](<https://www.sec.gov/Archives/edgar/data/1045810/000104581022000008/nvda-20220216.htm>) · [SRC-041](<https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q1FY24/Rev_by_Mkt_Qtrly_Trend_Q124.pdf>) |
+| Q1 FY2023 | 2022-05-01 | 8,288 | 3,750 | 1,618 | 45.25% | 19.52% | [SRC-108](<https://www.sec.gov/Archives/edgar/data/1045810/000104581022000073/nvda-20220525.htm>) · [SRC-042](<https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q4FY24/Rev_by_Mkt_Qtrly_Trend_Q424.pdf>) |
+| Q2 FY2023 | 2022-07-31 | 6,704 | 3,806 | 1,824 | 56.77% | 27.21% | [SRC-109](<https://www.sec.gov/Archives/edgar/data/1045810/000104581022000136/nvda-20220824.htm>) · [SRC-042](<https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q4FY24/Rev_by_Mkt_Qtrly_Trend_Q424.pdf>) |
+| Q3 FY2023 | 2022-10-30 | 5,931 | 3,833 | 1,945 | 64.63% | 32.79% | [SRC-110](<https://www.sec.gov/Archives/edgar/data/1045810/000104581022000163/nvda-20221116.htm>) · [SRC-042](<https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q4FY24/Rev_by_Mkt_Qtrly_Trend_Q424.pdf>) |
+| Q4 FY2023 | 2023-01-29 | 6,051 | 3,616 | 1,951 | 59.76% | 32.24% | [SRC-111](<https://www.sec.gov/Archives/edgar/data/1045810/000104581023000014/nvda-20230222.htm>) · [SRC-042](<https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q4FY24/Rev_by_Mkt_Qtrly_Trend_Q424.pdf>) |
+| Q1 FY2024 | 2023-04-30 | 7,192 | 4,284 | 1,875 | 59.57% | 26.07% | [SRC-112](<https://www.sec.gov/Archives/edgar/data/1045810/000104581023000087/nvda-20230524.htm>) · [SRC-042](<https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q4FY24/Rev_by_Mkt_Qtrly_Trend_Q424.pdf>) |
+| Q2 FY2024 | 2023-07-30 | 13,507 | 10,323 | 2,040 | 76.43% | 15.10% | [SRC-113](<https://www.sec.gov/Archives/edgar/data/1045810/000104581023000171/nvda-20230823.htm>) · [SRC-042](<https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q4FY24/Rev_by_Mkt_Qtrly_Trend_Q424.pdf>) |
+| Q3 FY2024 | 2023-10-29 | 18,120 | 14,514 | 2,294 | 80.10% | 12.66% | [SRC-114](<https://www.sec.gov/Archives/edgar/data/1045810/000104581023000225/nvda-20231121.htm>) · [SRC-042](<https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q4FY24/Rev_by_Mkt_Qtrly_Trend_Q424.pdf>) |
+| Q4 FY2024 | 2024-01-28 | 22,103 | 18,404 | 2,465 | 83.26% | 11.15% | [SRC-115](<https://www.sec.gov/Archives/edgar/data/1045810/000104581024000028/nvda-20240221.htm>) · [SRC-042](<https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q4FY24/Rev_by_Mkt_Qtrly_Trend_Q424.pdf>) |
+| Q1 FY2025 | 2024-04-28 | 26,044 | 22,563 | 2,720 | 86.63% | 10.44% | [SRC-116](<https://www.sec.gov/Archives/edgar/data/1045810/000104581024000113/nvda-20240522.htm>) · [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) |
+| Q2 FY2025 | 2024-07-28 | 30,040 | 26,272 | 3,090 | 87.46% | 10.29% | [SRC-117](<https://www.sec.gov/Archives/edgar/data/1045810/000104581024000262/nvda-20240828.htm>) · [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) |
+| Q3 FY2025 | 2024-10-27 | 35,082 | 30,771 | 3,390 | 87.71% | 9.66% | [SRC-118](<https://www.sec.gov/Archives/edgar/data/1045810/000104581024000315/nvda-20241120.htm>) · [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) |
+| Q4 FY2025 | 2025-01-26 | 39,331 | 35,580 | 3,714 | 90.46% | 9.44% | [SRC-119](<https://www.sec.gov/Archives/edgar/data/1045810/000104581025000021/nvda-20250226.htm>) · [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) |
+| Q1 FY2026 | 2025-04-27 | 44,062 | 39,112 | 3,989 | 88.77% | 9.05% | [SRC-120](<https://www.sec.gov/Archives/edgar/data/1045810/000104581025000115/nvda-20250528.htm>) · [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) |
+| Q2 FY2026 | 2025-07-27 | 46,743 | 41,096 | 4,291 | 87.92% | 9.18% | [SRC-121](<https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/nvda-20250827.htm>) · [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) |
+| Q3 FY2026 | 2025-10-26 | 57,006 | 51,215 | 4,705 | 89.84% | 8.25% | [SRC-122](<https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/nvda-20251119.htm>) · [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) |
+| Q4 FY2026 | 2026-01-25 | 68,127 | 62,314 | 5,512 | 91.47% | 8.09% | [SRC-123](<https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/nvda-20260225.htm>) · [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) |
+| Q1 FY2027 | 2026-04-26 | 81,615 | 75,246 | 6,321 | 92.20% | 7.74% | [SRC-124](<https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/nvda-20260520.htm>) · [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) |
+| Q2 FY2027 | 2026-07-26 | 96,221 | 89,023 | 7,054 | 92.52% | 7.33% | [SRC-125](<https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm>) · [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) |
+| Q3 FY2027 | 2026-10-25 | 115,844 | 107,610 | 7,454 | 92.89% | 6.43% | [SRC-013](<https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm>) · [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) |
 
 ## November 2026 market observations
 

@@ -18,6 +18,13 @@ POLICIES = {
     "unverified": set(),
 }
 SOURCE_FIELDS = "id published_on kind publisher title stable_ref url accessed_on"
+ANNUAL_FIELDS = "fiscal_year period_end revenue_usd_m data_center_usd_m gaap_rd_usd_m claim_id source_id"
+QUARTERLY_FIELDS = (
+    "fiscal_year quarter period_end reported_on revenue_usd_m data_center_usd_m "
+    "gaap_rd_usd_m claim_id source_id market_source_id"
+)
+TIMELINE_FIELDS = "id event_date disclosed_on precision status category event claim_id primary_source_id"
+CATEGORIES = {"governance", "technology", "policy", "financials"}
 CLAIM_FIELDS = {"id", "status", "statement", "evidence", "boundary", "reviewed_on"}
 DATE_PATTERNS = {"year": r"\d{4}", "month": r"\d{4}-\d{2}", "day": r"\d{4}-\d{2}-\d{2}"}
 LINK = re.compile(r"!?\[[^\]\n]+\]\((<[^<>\s]+>|[^()<>\s]+)\)")
@@ -109,10 +116,8 @@ def validate(root=ROOT):
                     f"{cid}: row source missing from evidence")
 
     data = root / "data"
-    annual = rows(data / "annual_financials.csv",
-                  "fiscal_year period_end revenue_usd_m data_center_usd_m gaap_rd_usd_m claim_id source_id")
-    quarterly = rows(data / "quarterly_financials.csv",
-                     "fiscal_year quarter period_end revenue_usd_m data_center_usd_m_rounded gaap_rd_usd_m claim_id source_id")
+    annual = rows(data / "annual_financials.csv", ANNUAL_FIELDS)
+    quarterly = rows(data / "quarterly_financials.csv", QUARTERLY_FIELDS)
     unique(annual, lambda row: int(row["fiscal_year"]), "annual fiscal year")
     unique(quarterly, lambda row: (int(row["fiscal_year"]), int(row["quarter"])), "fiscal quarter")
     for row in annual + quarterly:
@@ -124,15 +129,25 @@ def validate(root=ROOT):
                 f"{row['period_end']}: invalid financial provenance")
         if "quarter" in row:
             quarter = int(row["quarter"])
-            require(1 <= quarter <= 4 and period.year in (fiscal_year - 1, fiscal_year),
-                    f"{row['period_end']}: invalid fiscal quarter")
+            label = f"FY{fiscal_year} Q{quarter}"
+            require(1 <= quarter <= 4 and period.year == fiscal_year - (quarter != 4),
+                    f"{label}: invalid fiscal quarter")
+            require(period <= day(row["reported_on"]) <= cutoff
+                    and row["reported_on"] <= source["published_on"] and source["stable_ref"].startswith("SEC:"),
+                    f"{label}: invalid earnings disclosure date or EDGAR reference")
+            market_source = row["market_source_id"]
+            require(market_source in {e["source_id"] for e in claims[row["claim_id"]]["evidence"]}
+                    and sources[market_source]["kind"] in {"issuer", "filing"}
+                    and day(sources[market_source]["published_on"]) >= period,
+                    f"{label}: quarterly market source is missing or invalid")
         else:
             require(period.year == fiscal_year and period.month == 1, "Invalid annual fiscal year end")
         revenue = int(row["revenue_usd_m"])
-        data_center = int(row.get("data_center_usd_m", row.get("data_center_usd_m_rounded")))
+        data_center = int(row["data_center_usd_m"])
         require(revenue > 0 and 0 <= data_center <= revenue and int(row["gaap_rd_usd_m"]) >= 0,
                 f"{row['period_end']}: invalid financial amounts")
     require(len(annual) >= 2, "Annual series requires at least two rows")
+    reconcile_quarters(annual, quarterly)
     ownership = rows(data / "ownership.csv", "as_of person beneficial_shares percent_reported claim_id source_id")
     unique(ownership, lambda row: (row["as_of"], row["person"]), "ownership")
     for row in ownership:
@@ -140,13 +155,17 @@ def validate(root=ROOT):
         require(day(row["as_of"]) <= day(sources[row["source_id"]]["published_on"])
                 and row["person"].strip() and int(row["beneficial_shares"]) >= 0
                 and 0 <= Decimal(row["percent_reported"]) <= 100, "Invalid ownership row")
-    timeline = rows(data / "timeline.csv", "id event_date disclosed_on precision status event claim_id")
+    timeline = rows(data / "timeline.csv", TIMELINE_FIELDS)
     unique(timeline, lambda row: row["id"], "event")
     for row in timeline:
         eid = row["id"]
         require(re.fullmatch(r"EV-\d{3,}", eid) and row["event"].strip(), f"{eid}: invalid event")
+        require(row["category"] in CATEGORIES, f"{eid}: invalid category")
         verify_provenance(row, {"documented", "attributed", "scheduled"})
-        require(row["status"] == claims[row["claim_id"]]["status"], f"{eid}: conflicting evidence status")
+        claim = claims[row["claim_id"]]
+        require(row["status"] == claim["status"], f"{eid}: conflicting evidence status")
+        require(row["primary_source_id"] in {item["source_id"] for item in claim["evidence"]},
+                f"{eid}: primary source is not part of the supporting claim")
         pattern = DATE_PATTERNS.get(row["precision"])
         value = row["event_date"]
         require(pattern and re.fullmatch(pattern, value), f"{eid}: date precision mismatch")
@@ -166,6 +185,32 @@ def validate(root=ROOT):
                 and close.is_finite() and close > 0 and day(row["trade_date"]) <= cutoff
                 and sources[row["source_id"]]["kind"] == "market_data", "Invalid market observation")
     return snapshot, sources, claims, annual, quarterly, timeline, market
+
+
+def reconcile_quarters(annual, quarterly):
+    ordered = sorted(quarterly, key=lambda row: row["period_end"])
+    require(bool(ordered), "Quarterly series is empty")
+    by_year = {}
+    previous = None
+    for row in ordered:
+        index = int(row["fiscal_year"]) * 4 + int(row["quarter"])
+        if previous is not None:
+            elapsed = day(row["period_end"]) - day(previous["period_end"])
+            require(index == int(previous["fiscal_year"]) * 4 + int(previous["quarter"]) + 1
+                    and 84 <= elapsed.days <= 98,
+                    f"{row['period_end']}: quarterly series has a gap or invalid period")
+        by_year.setdefault(row["fiscal_year"], []).append(row)
+        previous = row
+    for yearly in annual:
+        quarters = by_year.get(yearly["fiscal_year"], [])
+        if len(quarters) != 4:
+            continue
+        require(quarters[-1]["period_end"] == yearly["period_end"], "Quarterly fiscal year-end mismatch")
+        for field in ("revenue_usd_m", "data_center_usd_m", "gaap_rd_usd_m"):
+            total = sum(int(row[field]) for row in quarters)
+            require(abs(total - int(yearly[field])) <= 2,
+                    f"FY{yearly['fiscal_year']}: reported quarterly {field} does not reconcile")
+
 
 
 def price_return(start, end):
@@ -213,11 +258,11 @@ def render(root=ROOT):
             ledger.append(f"- {source_link(sid, sources)} · {source['publisher']} · {published} · {item['locator']}")
         ledger.append("")
     events = ["# Research timeline", "", note, "",
-              "| Event date | Disclosure | Status | Event | Evidence |",
-              "|---|---|---|---|---|"]
+              "| Event date | Disclosure | Category | Status | Event | Evidence |",
+              "|---|---|---|---|---|---|"]
     for row in sorted(timeline, key=lambda item: (item["event_date"], item["id"])):
         cid = row["claim_id"]
-        events.append(f"| {row['event_date']} | {row['disclosed_on'] or '—'} | {row['status']} | "
+        events.append(f"| {row['event_date']} | {row['disclosed_on'] or '—'} | {row['category']} | {row['status']} | "
                       f"{row['event']} | [{cid}](../sources/evidence.md#{cid.lower()}) |")
     tables = ["# Reproducible metrics", "", note, "",
               "## Annual NVIDIA financials", "",
@@ -233,13 +278,14 @@ def render(root=ROOT):
     tables.extend(["", f"Endpoint CAGR was **{formatted['total_cagr']}** for total revenue and "
                    f"**{formatted['dc_cagr']}** for Data Center. Data Center accounted for "
                    f"**{formatted['growth_contribution']}** of the net revenue change.", "", "## Quarterly results", "",
-                   "Amounts are USD millions. Data Center is rounded as reported. See [CLM-010](../sources/evidence.md#clm-010).", "",
-                   "| Fiscal quarter | End date | Revenue | Data Center | GAAP R&D |",
-                   "|---|---|---:|---:|---:|"])
+                   "Amounts are USD millions as published. The dataset links to each earnings filing and market table.", "",
+                   "| Fiscal quarter | End date | Revenue | Data Center | GAAP R&D | Data Center share | R&D intensity | Sources |",
+                   "|---|---|---:|---:|---:|---:|---:|---|"])
     for row in sorted(quarterly, key=lambda item: (int(item["fiscal_year"]), int(item["quarter"]))):
+        revenue, dc, rd = (int(row[key]) for key in ("revenue_usd_m", "data_center_usd_m", "gaap_rd_usd_m"))
         tables.append(f"| Q{row['quarter']} FY{row['fiscal_year']} | {row['period_end']} | "
-                      f"{int(row['revenue_usd_m']):,} | ~{int(row['data_center_usd_m_rounded']):,} | "
-                      f"{int(row['gaap_rd_usd_m']):,} |")
+                      f"{revenue:,} | {dc:,} | {rd:,} | {100*dc/revenue:.2f}% | {100*rd/revenue:.2f}% | "
+                      f"{source_link(row['source_id'], sources)} · {source_link(row['market_source_id'], sources)} |")
     returns = market_returns(market)
     tables.extend(["", "## November 2026 market observations", "",
                    "Close-to-close USD price returns. See [CLM-019](../sources/evidence.md#clm-019).", "",

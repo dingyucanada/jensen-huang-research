@@ -155,6 +155,7 @@ Huang described first-principles reasoning at Stanford and a broad direct report
 
 - [SRC-019](<https://www.gsb.stanford.edu/insights/jensen-huang-how-use-first-principles-thinking-drive-decisions>) · Stanford Graduate School of Business · 2024-04-25 · Interview transcript
 - [SRC-020](<https://stripe.com/sessions/2024/a-conversation-with-nvidias-jensen-huang>) · Stripe Sessions · 2024 · Management and reporting structure transcript
+- [SRC-064](<https://www.youtube.com/watch?v=8Pfa8kPjUio>) · Stripe · 2024 · Publisher conference recording
 
 ## CLM-015
 
@@ -177,7 +178,7 @@ NVIDIA completed its Mellanox acquisition in 2020. NVIDIA and SoftBank abandoned
 **Evidence boundary.** Use the completed and abandoned transaction statuses independently.
 
 - [SRC-024](<https://nvidianews.nvidia.com/news/nvidia-completes-acquisition-of-mellanox-creating-major-force-driving-next-gen-data-centers>) · NVIDIA Newsroom · 2020-04-27 · Opening announcement
-- [SRC-017](<https://www.ftc.gov/legal-library/browse/cases-proceedings/2110015-nvidiaarm-matter>) · Federal Trade Commission · publication date unavailable · Case summary and chronology
+- [SRC-039](<https://www.gov.uk/government/news/nvidia-abandons-takeover-of-arm-during-cma-investigation>) · UK Competition and Markets Authority · 2022-02-08 · Opening statement and Phase 2 inquiry summary
 
 ## CLM-017
 
@@ -264,3 +265,278 @@ NVIDIA said the board's independent members had retained outside counsel for the
 **Evidence boundary.** The announcement establishes the reported engagement and does not represent findings.
 
 - [SRC-038](<https://investor.nvidia.com/news/press-release-details/2026/Statement-from-the-Independent-Members-of-the-NVIDIA-Board/default.aspx>) · NVIDIA Investor Relations · 2026-11-10 · Statement body and dateline
+
+## CLM-025
+
+**Documented** · Reviewed 2026-11-26
+
+NVIDIA's FY2021 quarterly consolidated revenue, Data Center revenue and GAAP R&D expense are drawn from its dated earnings filings and quarterly market tables.
+
+**Evidence boundary.** All amounts are USD millions. Data Center is the top-level market measure. Quarterly published amounts can differ from annual totals by rounding.
+
+- [SRC-100](<https://www.sec.gov/Archives/edgar/data/1045810/000104581020000063/nvda-20200521.htm>) · NVIDIA · 2020-05-21 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2020-04-26
+- [SRC-101](<https://www.sec.gov/Archives/edgar/data/1045810/000104581020000145/nvda-20200819.htm>) · NVIDIA · 2020-08-19 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2020-07-26
+- [SRC-102](<https://www.sec.gov/Archives/edgar/data/1045810/000104581020000187/nvda-20201118.htm>) · NVIDIA · 2020-11-18 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2020-10-25
+- [SRC-103](<https://www.sec.gov/Archives/edgar/data/1045810/000104581021000007/nvda-20210224.htm>) · NVIDIA · 2021-02-24 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2021-01-31
+- [SRC-040](<https://s201.q4cdn.com/141608511/files/doc_financials/2022/q2/Rev_by_Mkt_Qtrly_Trend_Q222.pdf>) · NVIDIA · 2021-08-18 · Data Center and total revenue rows, FY2021 columns
+
+## CLM-026
+
+**Documented** · Reviewed 2026-11-26
+
+NVIDIA's FY2022 quarterly consolidated revenue, Data Center revenue and GAAP R&D expense are drawn from its dated earnings filings and quarterly market tables.
+
+**Evidence boundary.** All amounts are USD millions. Data Center is the top-level market measure. Quarterly published amounts can differ from annual totals by rounding.
+
+- [SRC-104](<https://www.sec.gov/Archives/edgar/data/1045810/000104581021000063/nvda-20210526.htm>) · NVIDIA · 2021-05-26 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2021-05-02
+- [SRC-105](<https://www.sec.gov/Archives/edgar/data/1045810/000104581021000128/nvda-20210818.htm>) · NVIDIA · 2021-08-18 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2021-08-01
+- [SRC-106](<https://www.sec.gov/Archives/edgar/data/1045810/000104581021000160/nvda-20211117.htm>) · NVIDIA · 2021-11-17 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2021-10-31
+- [SRC-107](<https://www.sec.gov/Archives/edgar/data/1045810/000104581022000008/nvda-20220216.htm>) · NVIDIA · 2022-02-16 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2022-01-30
+- [SRC-040](<https://s201.q4cdn.com/141608511/files/doc_financials/2022/q2/Rev_by_Mkt_Qtrly_Trend_Q222.pdf>) · NVIDIA · 2021-08-18 · Data Center and total revenue rows, FY2022 columns
+- [SRC-041](<https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q1FY24/Rev_by_Mkt_Qtrly_Trend_Q124.pdf>) · NVIDIA · 2023-05-24 · Data Center and total revenue rows, FY2022 columns
+
+## CLM-027
+
+**Documented** · Reviewed 2026-11-26
+
+NVIDIA's FY2023 quarterly consolidated revenue, Data Center revenue and GAAP R&D expense are drawn from its dated earnings filings and quarterly market tables.
+
+**Evidence boundary.** All amounts are USD millions. Data Center is the top-level market measure. Quarterly published amounts can differ from annual totals by rounding.
+
+- [SRC-108](<https://www.sec.gov/Archives/edgar/data/1045810/000104581022000073/nvda-20220525.htm>) · NVIDIA · 2022-05-25 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2022-05-01
+- [SRC-109](<https://www.sec.gov/Archives/edgar/data/1045810/000104581022000136/nvda-20220824.htm>) · NVIDIA · 2022-08-24 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2022-07-31
+- [SRC-110](<https://www.sec.gov/Archives/edgar/data/1045810/000104581022000163/nvda-20221116.htm>) · NVIDIA · 2022-11-16 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2022-10-30
+- [SRC-111](<https://www.sec.gov/Archives/edgar/data/1045810/000104581023000014/nvda-20230222.htm>) · NVIDIA · 2023-02-22 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2023-01-29
+- [SRC-042](<https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q4FY24/Rev_by_Mkt_Qtrly_Trend_Q424.pdf>) · NVIDIA · 2024-02-21 · Data Center and total revenue rows, FY2023 columns
+
+## CLM-028
+
+**Documented** · Reviewed 2026-11-26
+
+NVIDIA's FY2024 quarterly consolidated revenue, Data Center revenue and GAAP R&D expense are drawn from its dated earnings filings and quarterly market tables.
+
+**Evidence boundary.** All amounts are USD millions. Data Center is the top-level market measure. Quarterly published amounts can differ from annual totals by rounding.
+
+- [SRC-112](<https://www.sec.gov/Archives/edgar/data/1045810/000104581023000087/nvda-20230524.htm>) · NVIDIA · 2023-05-24 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2023-04-30
+- [SRC-113](<https://www.sec.gov/Archives/edgar/data/1045810/000104581023000171/nvda-20230823.htm>) · NVIDIA · 2023-08-23 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2023-07-30
+- [SRC-114](<https://www.sec.gov/Archives/edgar/data/1045810/000104581023000225/nvda-20231121.htm>) · NVIDIA · 2023-11-21 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2023-10-29
+- [SRC-115](<https://www.sec.gov/Archives/edgar/data/1045810/000104581024000028/nvda-20240221.htm>) · NVIDIA · 2024-02-21 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2024-01-28
+- [SRC-042](<https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q4FY24/Rev_by_Mkt_Qtrly_Trend_Q424.pdf>) · NVIDIA · 2024-02-21 · Data Center and total revenue rows, FY2024 columns
+
+## CLM-029
+
+**Documented** · Reviewed 2026-11-26
+
+NVIDIA's FY2025 quarterly consolidated revenue, Data Center revenue and GAAP R&D expense are drawn from its dated earnings filings and quarterly market tables.
+
+**Evidence boundary.** All amounts are USD millions. Data Center is the top-level market measure. Quarterly published amounts can differ from annual totals by rounding.
+
+- [SRC-116](<https://www.sec.gov/Archives/edgar/data/1045810/000104581024000113/nvda-20240522.htm>) · NVIDIA · 2024-05-22 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2024-04-28
+- [SRC-117](<https://www.sec.gov/Archives/edgar/data/1045810/000104581024000262/nvda-20240828.htm>) · NVIDIA · 2024-08-28 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2024-07-28
+- [SRC-118](<https://www.sec.gov/Archives/edgar/data/1045810/000104581024000315/nvda-20241120.htm>) · NVIDIA · 2024-11-20 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2024-10-27
+- [SRC-119](<https://www.sec.gov/Archives/edgar/data/1045810/000104581025000021/nvda-20250226.htm>) · NVIDIA · 2025-02-26 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2025-01-26
+- [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) · NVIDIA · 2026-11-17 · Data Center and total revenue rows, FY2025 columns
+
+## CLM-030
+
+**Documented** · Reviewed 2026-11-26
+
+NVIDIA's FY2026 quarterly consolidated revenue, Data Center revenue and GAAP R&D expense are drawn from its dated earnings filings and quarterly market tables.
+
+**Evidence boundary.** All amounts are USD millions. Data Center is the top-level market measure. Quarterly published amounts can differ from annual totals by rounding.
+
+- [SRC-120](<https://www.sec.gov/Archives/edgar/data/1045810/000104581025000115/nvda-20250528.htm>) · NVIDIA · 2025-05-28 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2025-04-27
+- [SRC-121](<https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/nvda-20250827.htm>) · NVIDIA · 2025-08-27 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2025-07-27
+- [SRC-122](<https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/nvda-20251119.htm>) · NVIDIA · 2025-11-19 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2025-10-26
+- [SRC-123](<https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/nvda-20260225.htm>) · NVIDIA · 2026-02-25 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2026-01-25
+- [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) · NVIDIA · 2026-11-17 · Data Center and total revenue rows, FY2026 columns
+
+## CLM-031
+
+**Documented** · Reviewed 2026-11-26
+
+NVIDIA's FY2027 quarterly consolidated revenue, Data Center revenue and GAAP R&D expense are drawn from its dated earnings filings and quarterly market tables.
+
+**Evidence boundary.** All amounts are USD millions. Data Center is the top-level market measure. Quarterly published amounts can differ from annual totals by rounding.
+
+- [SRC-124](<https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/nvda-20260520.htm>) · NVIDIA · 2026-05-20 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2026-04-26
+- [SRC-125](<https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm>) · NVIDIA · 2026-08-26 · Item 2.02 and Exhibit 99.1, consolidated income statement for the quarter ended 2026-07-26
+- [SRC-013](<https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm>) · NVIDIA · 2026-11-17 · Condensed Consolidated Statements of Income, three months ended October 25, 2026
+- [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) · NVIDIA · 2026-11-17 · Data Center and total revenue rows, FY2027 columns
+
+## CLM-032
+
+**Documented** · Reviewed 2026-11-26
+
+BIS published the AI Diffusion framework in January 2025 and announced planned rescission and non-enforcement in May 2025. The November 2026 interim final rule formalized rescission.
+
+**Evidence boundary.** Publication, the non-enforcement announcement and formal rescission were distinct actions.
+
+- [SRC-044](<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>) · Bureau of Industry and Security · 2025-01-15 · Summary and dates
+- [SRC-045](<https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens>) · Bureau of Industry and Security · 2025-05-13 · Opening statement and enforcement instruction
+- [SRC-037](<https://www.govinfo.gov/content/pkg/FR-2026-11-19/html/2026-23529.htm>) · Bureau of Industry and Security · 2026-11-19 · Summary and rescission discussion
+
+## CLM-033
+
+**Attributed** · Reviewed 2026-11-26
+
+NVIDIA's April 15 filing reported that the U.S. government had notified the company of an H20 export licensing requirement on April 9 and said on April 14 it would apply indefinitely.
+
+**Evidence boundary.** This record is NVIDIA’s account of notices it received. The later 10-K provides the reported accounting impact.
+
+- [SRC-046](<https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm>) · NVIDIA · 2025-04-15 · Item 8.01, dates and product scope
+
+## CLM-034
+
+**Documented** · Reviewed 2026-11-26
+
+California’s Attorney General announced service of an investigative subpoena on NVIDIA on November 19, 2026.
+
+**Evidence boundary.** The announcement establishes service and scope of the investigation. It does not establish a violation or findings.
+
+- [SRC-047](<https://www.oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia>) · California Department of Justice · 2026-11-19 · Date and opening paragraphs
+
+## CLM-035
+
+**Documented** · Reviewed 2026-11-26
+
+Senators Warren and Coons publicly requested preservation of records related to NVIDIA and advanced chip exports on November 11, 2026.
+
+**Evidence boundary.** A preservation request is an oversight action.
+
+- [SRC-048](<https://www.banking.senate.gov/newsroom/minority/senators-warren-and-coons-direct-lutnick-rubio-and-miller-to-preserve-nvidia-records-following-reports-of-foreign-intelligence-operation-targeting-ceo-jensen-huang>) · Senate Banking Committee minority · 2026-11-11 · Statement and linked letter
+
+## CLM-036
+
+**Attributed** · Reviewed 2026-11-26
+
+Huang discussed NVIDIA’s early product choices and setbacks in a Computer History Museum oral history recorded August 9, 2024 and made public in December 2025.
+
+**Evidence boundary.** A retrospective first-person account. Use contemporaneous records for product outcomes and dates.
+
+- [SRC-049](<https://www.youtube.com/watch?v=0c8i4T9BSqY>) · Computer History Museum · 2025-12-09 · Publisher description, acquisition 2024.0118
+- [SRC-018](<https://computerhistory.org/profile/jensen-huang/>) · Computer History Museum · publication date unavailable · Museum biographical profile
+- [SRC-065](<https://www.computerhistory.org/collections/catalog/102809034>) · Computer History Museum · publication date unavailable · Transcript catalog record 102809034
+
+## CLM-037
+
+**Attributed** · Reviewed 2026-11-26
+
+Huang recounted the first six months of NVIDIA in a 2009 Stanford talk and discussed early product decisions, AlexNet, management and networking in a 2023 Acquired interview.
+
+**Evidence boundary.** Video timestamps identify topic entry points. The speakers’ interpretations require corroboration.
+
+- [SRC-050](<https://stvp.stanford.edu/av/first-six-months-nvidia>) · Stanford Technology Ventures Program · 2009-04-08 · Clip overview
+- [SRC-063](<https://stvp.stanford.edu/node/12976/printable/print>) · Stanford Technology Ventures Program · 2009-04-08 · Linked printable transcript and April 8, 2009 dateline
+- [SRC-051](<https://www.youtube.com/watch?v=y6NfxiemvHg>) · Acquired · 2023-10-15 · Publisher chapters at 02:54, 17:27, 27:13 and 39:31
+
+## CLM-038
+
+**Documented** · Reviewed 2026-11-26
+
+NVIDIA’s history records the GeForce 256 milestone in 1999. It announced DGX-1 in 2016, Hopper and H100 in 2022, and Blackwell in 2024.
+
+**Evidence boundary.** Issuer milestones establish announcements. Shipping, adoption and performance require separate observations.
+
+- [SRC-021](<https://www.nvidia.com/en-us/about-nvidia/corporate-timeline/>) · NVIDIA · publication date unavailable · 1999 entry
+- [SRC-054](<https://nvidianews.nvidia.com/news/nvidia-launches-world-s-first-deep-learning-supercomputer-6622436>) · NVIDIA · 2016-04-05 · Opening announcement
+- [SRC-055](<https://nvidianews.nvidia.com/news/nvidia-announces-hopper-architecture-the-next-generation-of-accelerated-computing>) · NVIDIA · 2022-03-22 · Hopper and H100 announcement
+- [SRC-056](<https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing>) · NVIDIA · 2024-03-18 · Opening Blackwell announcement
+
+## CLM-039
+
+**Attributed** · Reviewed 2026-11-26
+
+NVIDIA marked two decades of CUDA in 2026. At SC26 it announced a rack-scale Vera CPU platform, and its November earnings materials reported that Vera Rubin NVL72 systems had begun shipping.
+
+**Evidence boundary.** Company statements support the announced status. Future deployments and performance need independent verification.
+
+- [SRC-052](<https://www.youtube.com/watch?v=jw_o0xr8MWU>) · NVIDIA · 2026-03-16 · Publisher chapter at 06:02
+- [SRC-053](<https://blogs.nvidia.com/blog/20-years-cuda/>) · NVIDIA · 2026-11-16 · SC26 dateline and CUDA history
+- [SRC-057](<https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery>) · NVIDIA · 2026-11-16 · Opening announcement
+- [SRC-013](<https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm>) · NVIDIA · 2026-11-17 · Data Center highlights
+
+## CLM-040
+
+**Derived** · Reviewed 2026-11-26
+
+The same two eight-accelerator Dell systems were submitted in the Offline and Server scenarios of the Llama 2 70B 99.9 MLPerf Inference v6.1 benchmark. The published throughputs were 113,101 and 103,792 tokens per second in Offline, and 106,898 and 103,932 in Server, for the B300 and MI355X configurations respectively.
+
+**Evidence boundary.** Two selected available whole-system submissions with different software stacks. Compare the systems within each scenario. The results do not isolate accelerator speed, cost or power.
+
+- [SRC-058](<https://github.com/mlcommons/inference_results_v6.1/blob/6623c6c8bac460c46a8768ac261bc0889c9c7f13/summary.csv>) · MLCommons · publication date unavailable · Dell rows XE9785L_x86_B300-SXM-270GBx8_TRT and XE9785L_8xMI355X
+- [SRC-059](<https://mlcommons.org/benchmarks/inference-datacenter/>) · MLCommons · publication date unavailable · Closed Datacenter Inference definitions
+- [SRC-060](<https://github.com/mlcommons/policies/blob/master/MLPerf_Results_Messaging_Guidelines.adoc>) · MLCommons · publication date unavailable · Results attribution guidance
+- [SRC-067](<https://github.com/mlcommons/inference_policies/blob/master/inference_rules.adoc>) · MLCommons · publication date unavailable · Scenarios and metrics table and performance constraints
+
+## CLM-041
+
+**Documented** · Reviewed 2026-11-26
+
+BIS announced its remote-access interim final rule on November 16, 2026. The rule was published and took effect on November 19, with comments due January 19, 2027.
+
+**Evidence boundary.** Effective dates and compliance timing can differ for individual provisions. The tracker records the publication-level dates.
+
+- [SRC-061](<https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology>) · Bureau of Industry and Security · 2026-11-16 · Dateline and opening rule announcement
+- [SRC-037](<https://www.govinfo.gov/content/pkg/FR-2026-11-19/html/2026-23529.htm>) · Bureau of Industry and Security · 2026-11-19 · Dates and summary
+
+## CLM-042
+
+**Documented** · Reviewed 2026-11-26
+
+NVIDIA separately publishes its market platform revenue series. Its Q3 FY2027 supplementary table gives $107.610 billion of Data Center revenue and identifies the comparative periods recast following market presentation changes.
+
+**Evidence boundary.** The tracker uses the top-level Data Center series. It does not infer historical submarket splits where the issuer has not published them.
+
+- [SRC-043](<https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf>) · NVIDIA · 2026-11-17 · Data Center row and recasting note
+- [SRC-062](<https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm>) · NVIDIA · 2026-11-17 · Revenue by Market Platform table
+
+## CLM-043
+
+**Documented** · Reviewed 2026-11-26
+
+NVIDIA’s published CUDA paper in 2008 documented a scalable parallel programming model using GPU threads and a hierarchy of cooperating blocks.
+
+**Evidence boundary.** This is a technical publication milestone rather than a product release.
+
+- [SRC-022](<https://research.nvidia.com/publication/2008-03_scalable-parallel-programming-cuda>) · John Nickolls and coauthors · 2008-03-01 · Publication metadata and abstract
+
+## CLM-044
+
+**Documented** · Reviewed 2026-11-26
+
+A BIS rule published November 25, 2026 added seven entities in Malaysia, Singapore and Thailand to the Entity List. The rule lists November 23 as its effective date.
+
+**Evidence boundary.** The rule records a regulatory action and the agency’s stated diversion-risk rationale. It does not establish separate findings about NVIDIA or its executives.
+
+- [SRC-066](<https://www.federalregister.gov/documents/2026/11/25/2026-23999/additions-to-the-entity-list>) · Bureau of Industry and Security · 2026-11-25 · Summary, Dates and Entity List Decisions
+
+## CLM-045
+
+**Documented** · Reviewed 2026-11-26
+
+NVIDIA’s archived corporate timeline records its RIVA 128 launch in 1997.
+
+**Evidence boundary.** The issuer’s historical record supports the introduction. This record does not establish explanations for subsequent commercial outcomes.
+
+- [SRC-068](<https://www.nvidia.com/content/timeline/time_97.html>) · NVIDIA · publication date unavailable · April entry
+
+## CLM-046
+
+**Documented** · Reviewed 2026-11-26
+
+BIS published a rule on December 5, 2024 that refined advanced computing and semiconductor manufacturing controls and added foreign-produced direct product rules. It lists December 2 as its effective date.
+
+**Evidence boundary.** Published changes had provision-specific compliance dates. Use historical rules for chronology and current regulations for legal application.
+
+- [SRC-069](<https://www.govinfo.gov/content/pkg/FR-2024-12-05/html/2024-28267.htm>) · Bureau of Industry and Security · 2024-12-05 · Summary, Dates and description of changes
+
+## CLM-047
+
+**Documented** · Reviewed 2026-11-26
+
+On January 16, 2025, BIS published and made effective an interim final rule adding due diligence measures for advanced computing integrated circuits. Its dates section distinguishes general effectiveness from January 31 compliance timing for the new text.
+
+**Evidence boundary.** This item records a dated rule and distinguishes its stated effective and compliance dates.
+
+- [SRC-070](<https://www.govinfo.gov/content/pkg/FR-2025-01-16/html/2025-00711.htm>) · Bureau of Industry and Security · 2025-01-16 · Summary and Dates

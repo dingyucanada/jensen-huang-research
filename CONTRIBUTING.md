@@ -10,7 +10,7 @@ Use the [correction template](.github/ISSUE_TEMPLATE/correction.md). Include the
 
 1. Add or update source records in [registry.csv](sources/registry.csv). Preserve the IDs of existing sources.
 2. Attach locators in [claims.json](sources/claims.json) and update linked data rows. Claim and event IDs stay stable across corrections.
-3. Rebuild the indexes with `python3 scripts/research.py build`. Run `python3 scripts/research.py check` and `python3 -m unittest discover -s tests -v`.
+3. Rebuild the indexes with `python3 scripts/research.py build` and `python3 scripts/observatory.py build`. Run both scripts in `check` mode, then run `python3 -m unittest discover -s tests -v`.
 4. Update the changelog for material changes. Add a dated briefing when advancing the review cutoff.
 5. Open a pull request with the evidence, editorial reasoning, rights provenance and test results. An editorial reviewer must inspect material claims before merge.
 

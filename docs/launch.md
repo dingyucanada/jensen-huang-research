@@ -24,3 +24,15 @@ GitHub's [repository topics](https://docs.github.com/en/repositories/managing-yo
 | End of month | Review which pages are used, which sources need upkeep and which research issue attracted substantive contributions. Choose the next release accordingly. | Correction turnaround, referrals and validated contributions |
 
 Record GitHub's short-window traffic totals weekly to compare launch channels. Treat stars as an interest signal and use reproducible reuse, citations and corrections to assess research value. [GitHub traffic documentation](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository)
+
+## Observatory release
+
+Release the observatory after the review checks pass. Include the project ZIP and two English graphics exported by the browser. Start the release note with one answer readers can source in a minute. Use the timeline’s resignation and reinstatement record or the November policy publication and effective-date pair.
+
+For the first week, choose a narrowly scoped task for each audience:
+
+- **Researchers:** trace a dated prior-quarter revenue input to the issuer’s exact page and verify the comparison period.
+- **Journalists:** check a congressional calendar entry and link official testimony or a schedule change.
+- **Developers:** reproduce the four published benchmark rows from the pinned MLCommons CSV and report any mismatch.
+
+Use the [observatory instructions](observatory.md) to verify the guest-facing page and the download path. Add the published Pages URL to the repository About section after a successful deployment. The image export includes a versioned research cutoff or date so readers can return to the source repository.

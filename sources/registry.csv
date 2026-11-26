@@ -15,7 +15,6 @@ SRC-013,2026-11-17,filing,NVIDIA,Q3 FY2027 results filed as Form 8-K Exhibit 99.
 SRC-014,2026-01-15,government,Bureau of Industry and Security,Revision to License Review Policy for Advanced Computing Commodities,FR:2026-00789,https://www.govinfo.gov/content/pkg/FR-2026-01-15/pdf/2026-00789.pdf,2026-11-26
 SRC-015,2022-10-13,government,Bureau of Industry and Security,Advanced computing and semiconductor manufacturing export controls,FR:2022-21658,https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf,2026-11-26
 SRC-016,2023-10-25,government,Bureau of Industry and Security,Advanced computing and end-use controls updates and corrections,FR:2023-23055,https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23055.pdf,2026-11-26
-SRC-017,,government,Federal Trade Commission,NVIDIA and Arm case docket,FTC:2110015,https://www.ftc.gov/legal-library/browse/cases-proceedings/2110015-nvidiaarm-matter,2026-11-26
 SRC-018,,institutional,Computer History Museum,Jensen Huang 2024 Fellow profile,,https://computerhistory.org/profile/jensen-huang/,2026-11-26
 SRC-019,2024-04-25,interview,Stanford Graduate School of Business,Jensen Huang on first-principles thinking,,https://www.gsb.stanford.edu/insights/jensen-huang-how-use-first-principles-thinking-drive-decisions,2026-11-26
 SRC-020,2024,interview,Stripe Sessions,A conversation with NVIDIA's Jensen Huang,,https://stripe.com/sessions/2024/a-conversation-with-nvidias-jensen-huang,2026-11-26
@@ -37,3 +36,61 @@ SRC-035,2026-11-23,filing,NVIDIA,Reinstatement announcement filed as Form 8-K Ex
 SRC-036,2026-11-17,interview,NVIDIA earnings call transcript by Bloomberg,Q3 FY2027 earnings call,,https://s201.q4cdn.com/141608511/files/content_files/NVDA-3Q27-Earnings-Transcript.pdf,2026-11-26
 SRC-037,2026-11-19,government,Bureau of Industry and Security,Addressing Remote Access to Advanced Semiconductors,FR:2026-23529,https://www.govinfo.gov/content/pkg/FR-2026-11-19/html/2026-23529.htm,2026-11-26
 SRC-038,2026-11-10,issuer,NVIDIA Investor Relations,Statement from the Independent Members of the NVIDIA Board,,https://investor.nvidia.com/news/press-release-details/2026/Statement-from-the-Independent-Members-of-the-NVIDIA-Board/default.aspx,2026-11-26
+SRC-039,2022-02-08,government,UK Competition and Markets Authority,NVIDIA abandons takeover of Arm during CMA investigation,,https://www.gov.uk/government/news/nvidia-abandons-takeover-of-arm-during-cma-investigation,2026-11-26
+SRC-040,2021-08-18,issuer,NVIDIA,Q2 FY2022 quarterly revenue trend,,https://s201.q4cdn.com/141608511/files/doc_financials/2022/q2/Rev_by_Mkt_Qtrly_Trend_Q222.pdf,2026-11-26
+SRC-041,2023-05-24,issuer,NVIDIA,Q1 FY2024 quarterly revenue trend,,https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q1FY24/Rev_by_Mkt_Qtrly_Trend_Q124.pdf,2026-11-26
+SRC-042,2024-02-21,issuer,NVIDIA,Q4 FY2024 quarterly revenue trend,,https://s201.q4cdn.com/141608511/files/doc_financials/2024/Q4FY24/Rev_by_Mkt_Qtrly_Trend_Q424.pdf,2026-11-26
+SRC-043,2026-11-17,issuer,NVIDIA,Q3 FY2027 quarterly revenue trend,,https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Rev-by-Mkt-Qtrly-Trend-Q327.pdf,2026-11-26
+SRC-044,2025-01-15,government,Bureau of Industry and Security,Framework for Artificial Intelligence Diffusion,FR:2025-00636,https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm,2026-11-26
+SRC-045,2025-05-13,government,Bureau of Industry and Security,Commerce announcement on AI Diffusion Rule non-enforcement and planned rescission,,https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens,2026-11-26
+SRC-046,2025-04-15,filing,NVIDIA,Form 8-K on H20 licensing requirement,SEC:0001045810-25-000082,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm,2026-11-26
+SRC-047,2026-11-19,government,California Department of Justice,Attorney General Bonta serves investigative subpoena on NVIDIA,,https://www.oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia,2026-11-26
+SRC-048,2026-11-11,government,Senate Banking Committee minority,Request to preserve NVIDIA-related records,,https://www.banking.senate.gov/newsroom/minority/senators-warren-and-coons-direct-lutnick-rubio-and-miller-to-preserve-nvidia-records-following-reports-of-foreign-intelligence-operation-targeting-ceo-jensen-huang,2026-11-26
+SRC-049,2025-12-09,interview,Computer History Museum,Oral History of Jensen Huang,CHM:102809035,https://www.youtube.com/watch?v=0c8i4T9BSqY,2026-11-26
+SRC-050,2009-04-08,interview,Stanford Technology Ventures Program,The First Six Months of NVIDIA,,https://stvp.stanford.edu/av/first-six-months-nvidia,2026-11-26
+SRC-051,2023-10-15,interview,Acquired,"NVIDIA CEO Jensen Huang, video and chapter index",,https://www.youtube.com/watch?v=y6NfxiemvHg,2026-11-26
+SRC-052,2026-03-16,issuer,NVIDIA,"NVIDIA GTC 2026 Keynote, video and chapter index",,https://www.youtube.com/watch?v=jw_o0xr8MWU,2026-11-26
+SRC-053,2026-11-16,issuer,NVIDIA,CUDA at 20 anniversary retrospective,,https://blogs.nvidia.com/blog/20-years-cuda/,2026-11-26
+SRC-054,2016-04-05,issuer,NVIDIA,NVIDIA launches DGX-1 deep learning system,,https://nvidianews.nvidia.com/news/nvidia-launches-world-s-first-deep-learning-supercomputer-6622436,2026-11-26
+SRC-055,2022-03-22,issuer,NVIDIA,NVIDIA announces Hopper architecture and H100,,https://nvidianews.nvidia.com/news/nvidia-announces-hopper-architecture-the-next-generation-of-accelerated-computing,2026-11-26
+SRC-056,2024-03-18,issuer,NVIDIA,NVIDIA announces Blackwell platform,,https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing,2026-11-26
+SRC-057,2026-11-16,issuer,NVIDIA,NVIDIA SC26 Vera CPU platform announcement,,https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery,2026-11-26
+SRC-058,,research,MLCommons,MLPerf Inference v6.1 pinned result summary,Git:6623c6c8bac460c46a8768ac261bc0889c9c7f13,https://github.com/mlcommons/inference_results_v6.1/blob/6623c6c8bac460c46a8768ac261bc0889c9c7f13/summary.csv,2026-11-26
+SRC-059,,research,MLCommons,MLPerf Datacenter Inference benchmark definitions and results,,https://mlcommons.org/benchmarks/inference-datacenter/,2026-11-26
+SRC-060,,research,MLCommons,MLPerf Results Messaging Guidelines,,https://github.com/mlcommons/policies/blob/master/MLPerf_Results_Messaging_Guidelines.adoc,2026-11-26
+SRC-061,2026-11-16,government,Bureau of Industry and Security,BIS announces the interim final rule on remote access,,https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology,2026-11-26
+SRC-062,2026-11-17,issuer,NVIDIA,Q3 FY2027 commentary on market platform changes,SEC:0001045810-26-000088,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm,2026-11-26
+SRC-063,2009-04-08,interview,Stanford Technology Ventures Program,The First Six Months of NVIDIA transcript,,https://stvp.stanford.edu/node/12976/printable/print,2026-11-26
+SRC-064,2024,interview,Stripe,"A conversation with NVIDIA’s Jensen Huang, conference recording",,https://www.youtube.com/watch?v=8Pfa8kPjUio,2026-11-26
+SRC-065,,institutional,Computer History Museum,"Huang, Jensen oral history, transcript catalog record",CHM:102809034,https://www.computerhistory.org/collections/catalog/102809034,2026-11-26
+SRC-066,2026-11-25,government,Bureau of Industry and Security,Additions to the Entity List,FR:2026-23999,https://www.federalregister.gov/documents/2026/11/25/2026-23999/additions-to-the-entity-list,2026-11-26
+SRC-067,,research,MLCommons,MLPerf Inference rules and scenario definitions,,https://github.com/mlcommons/inference_policies/blob/master/inference_rules.adoc,2026-11-26
+SRC-068,,issuer,NVIDIA,"Archived corporate timeline, 1997",,https://www.nvidia.com/content/timeline/time_97.html,2026-11-26
+SRC-069,2024-12-05,government,Bureau of Industry and Security,"Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing Items",FR:2024-28267,https://www.govinfo.gov/content/pkg/FR-2024-12-05/html/2024-28267.htm,2026-11-26
+SRC-070,2025-01-16,government,Bureau of Industry and Security,Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits,FR:2025-00711,https://www.govinfo.gov/content/pkg/FR-2025-01-16/html/2025-00711.htm,2026-11-26
+SRC-100,2020-05-21,filing,NVIDIA,Q1 FY2021 earnings Form 8-K,SEC:0001045810-20-000063,https://www.sec.gov/Archives/edgar/data/1045810/000104581020000063/nvda-20200521.htm,2026-11-26
+SRC-101,2020-08-19,filing,NVIDIA,Q2 FY2021 earnings Form 8-K,SEC:0001045810-20-000145,https://www.sec.gov/Archives/edgar/data/1045810/000104581020000145/nvda-20200819.htm,2026-11-26
+SRC-102,2020-11-18,filing,NVIDIA,Q3 FY2021 earnings Form 8-K,SEC:0001045810-20-000187,https://www.sec.gov/Archives/edgar/data/1045810/000104581020000187/nvda-20201118.htm,2026-11-26
+SRC-103,2021-02-24,filing,NVIDIA,Q4 FY2021 earnings Form 8-K,SEC:0001045810-21-000007,https://www.sec.gov/Archives/edgar/data/1045810/000104581021000007/nvda-20210224.htm,2026-11-26
+SRC-104,2021-05-26,filing,NVIDIA,Q1 FY2022 earnings Form 8-K,SEC:0001045810-21-000063,https://www.sec.gov/Archives/edgar/data/1045810/000104581021000063/nvda-20210526.htm,2026-11-26
+SRC-105,2021-08-18,filing,NVIDIA,Q2 FY2022 earnings Form 8-K,SEC:0001045810-21-000128,https://www.sec.gov/Archives/edgar/data/1045810/000104581021000128/nvda-20210818.htm,2026-11-26
+SRC-106,2021-11-17,filing,NVIDIA,Q3 FY2022 earnings Form 8-K,SEC:0001045810-21-000160,https://www.sec.gov/Archives/edgar/data/1045810/000104581021000160/nvda-20211117.htm,2026-11-26
+SRC-107,2022-02-16,filing,NVIDIA,Q4 FY2022 earnings Form 8-K,SEC:0001045810-22-000008,https://www.sec.gov/Archives/edgar/data/1045810/000104581022000008/nvda-20220216.htm,2026-11-26
+SRC-108,2022-05-25,filing,NVIDIA,Q1 FY2023 earnings Form 8-K,SEC:0001045810-22-000073,https://www.sec.gov/Archives/edgar/data/1045810/000104581022000073/nvda-20220525.htm,2026-11-26
+SRC-109,2022-08-24,filing,NVIDIA,Q2 FY2023 earnings Form 8-K,SEC:0001045810-22-000136,https://www.sec.gov/Archives/edgar/data/1045810/000104581022000136/nvda-20220824.htm,2026-11-26
+SRC-110,2022-11-16,filing,NVIDIA,Q3 FY2023 earnings Form 8-K,SEC:0001045810-22-000163,https://www.sec.gov/Archives/edgar/data/1045810/000104581022000163/nvda-20221116.htm,2026-11-26
+SRC-111,2023-02-22,filing,NVIDIA,Q4 FY2023 earnings Form 8-K,SEC:0001045810-23-000014,https://www.sec.gov/Archives/edgar/data/1045810/000104581023000014/nvda-20230222.htm,2026-11-26
+SRC-112,2023-05-24,filing,NVIDIA,Q1 FY2024 earnings Form 8-K,SEC:0001045810-23-000087,https://www.sec.gov/Archives/edgar/data/1045810/000104581023000087/nvda-20230524.htm,2026-11-26
+SRC-113,2023-08-23,filing,NVIDIA,Q2 FY2024 earnings Form 8-K,SEC:0001045810-23-000171,https://www.sec.gov/Archives/edgar/data/1045810/000104581023000171/nvda-20230823.htm,2026-11-26
+SRC-114,2023-11-21,filing,NVIDIA,Q3 FY2024 earnings Form 8-K,SEC:0001045810-23-000225,https://www.sec.gov/Archives/edgar/data/1045810/000104581023000225/nvda-20231121.htm,2026-11-26
+SRC-115,2024-02-21,filing,NVIDIA,Q4 FY2024 earnings Form 8-K,SEC:0001045810-24-000028,https://www.sec.gov/Archives/edgar/data/1045810/000104581024000028/nvda-20240221.htm,2026-11-26
+SRC-116,2024-05-22,filing,NVIDIA,Q1 FY2025 earnings Form 8-K,SEC:0001045810-24-000113,https://www.sec.gov/Archives/edgar/data/1045810/000104581024000113/nvda-20240522.htm,2026-11-26
+SRC-117,2024-08-28,filing,NVIDIA,Q2 FY2025 earnings Form 8-K,SEC:0001045810-24-000262,https://www.sec.gov/Archives/edgar/data/1045810/000104581024000262/nvda-20240828.htm,2026-11-26
+SRC-118,2024-11-20,filing,NVIDIA,Q3 FY2025 earnings Form 8-K,SEC:0001045810-24-000315,https://www.sec.gov/Archives/edgar/data/1045810/000104581024000315/nvda-20241120.htm,2026-11-26
+SRC-119,2025-02-26,filing,NVIDIA,Q4 FY2025 earnings Form 8-K,SEC:0001045810-25-000021,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000021/nvda-20250226.htm,2026-11-26
+SRC-120,2025-05-28,filing,NVIDIA,Q1 FY2026 earnings Form 8-K,SEC:0001045810-25-000115,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000115/nvda-20250528.htm,2026-11-26
+SRC-121,2025-08-27,filing,NVIDIA,Q2 FY2026 earnings Form 8-K,SEC:0001045810-25-000207,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/nvda-20250827.htm,2026-11-26
+SRC-122,2025-11-19,filing,NVIDIA,Q3 FY2026 earnings Form 8-K,SEC:0001045810-25-000228,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/nvda-20251119.htm,2026-11-26
+SRC-123,2026-02-25,filing,NVIDIA,Q4 FY2026 earnings Form 8-K,SEC:0001045810-26-000019,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/nvda-20260225.htm,2026-11-26
+SRC-124,2026-05-20,filing,NVIDIA,Q1 FY2027 earnings Form 8-K,SEC:0001045810-26-000051,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/nvda-20260520.htm,2026-11-26
+SRC-125,2026-08-26,filing,NVIDIA,Q2 FY2027 earnings Form 8-K,SEC:0001045810-26-000073,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm,2026-11-26

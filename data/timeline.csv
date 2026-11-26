@@ -1,24 +1,42 @@
-id,event_date,disclosed_on,precision,status,event,claim_id
-EV-001,1993,,year,documented,NVIDIA co-founded,CLM-013
-EV-002,2006,,year,documented,NVIDIA dates the CUDA unveiling to this year,CLM-015
-EV-003,2012,,year,documented,AlexNet paper published,CLM-015
-EV-004,2020-04-27,2020-04-27,day,documented,NVIDIA announces completion of the Mellanox acquisition,CLM-016
-EV-005,2022-02,,month,documented,Proposed NVIDIA–Arm acquisition abandoned,CLM-016
-EV-006,2022-10-13,2022-10-13,day,documented,BIS publishes advanced computing and semiconductor manufacturing controls,CLM-017
-EV-007,2023-10-25,2023-10-25,day,documented,BIS publishes advanced computing and end-use control updates,CLM-017
-EV-008,2025-04,,month,attributed,NVIDIA says it was informed of an H20 export license requirement,CLM-012
-EV-009,2026-01-15,2026-01-15,day,documented,Conditional BIS license review rule takes effect,CLM-011
-EV-010,2026-03-23,2026-05-12,day,documented,Measurement date for Huang beneficial ownership in proxy,CLM-008
-EV-011,2026-11-08,2026-11-08,day,attributed,NVIDIA announces independent board inquiry,CLM-003
-EV-012,2026-11-11,2026-11-12,day,documented,Board accepts resignation and appoints interim CEO and board chair,CLM-001
-EV-013,2026-11-17,2026-11-17,day,documented,NVIDIA releases fiscal Q3 FY2027 results,CLM-010
-EV-014,2026-11-22,2026-11-23,day,documented,Board reinstates Huang as president and CEO and director,CLM-002
-EV-015,2026-11-23,2026-11-23,day,attributed,NVIDIA says the inquiry continues and describes new compliance oversight,CLM-003
-EV-016,2026-11-24,2026-11-24,day,documented,House ranking member calls for open hearing and five senators issue a separate statement,CLM-020
-EV-017,2026-11-25,2026-11-25,day,documented,Senator Booker publicly requests information from NVIDIA,CLM-007
-EV-018,2026-12-01,2026-11-17,day,scheduled,Huang House transcribed interview scheduled,CLM-005
-EV-019,2026-12-02,2026-11-17,day,scheduled,Teter House transcribed interview scheduled,CLM-005
-EV-020,2026-12-03,,day,scheduled,Huang listed as witness at Senate Banking public hearing,CLM-006
-EV-021,2026-11-10,2026-11-10,day,attributed,NVIDIA says independent board members retained outside counsel,CLM-024
-EV-022,2026-11-17,2026-11-17,day,attributed,Board chair says the board does not then intend to reinstate Huang,CLM-022
-EV-023,2026-11-19,2026-11-19,day,documented,BIS publishes remote access interim final rule,CLM-023
+id,event_date,disclosed_on,precision,status,category,event,claim_id,primary_source_id
+EV-001,1993,,year,documented,technology,NVIDIA co-founded,CLM-013,SRC-018
+EV-002,2006,,year,documented,technology,NVIDIA dates the CUDA unveiling to this year,CLM-015,SRC-021
+EV-003,2012,,year,documented,technology,AlexNet paper published,CLM-015,SRC-023
+EV-004,2020-04-27,2020-04-27,day,documented,technology,NVIDIA announces completion of the Mellanox acquisition,CLM-016,SRC-024
+EV-005,2022-02,,month,documented,policy,Proposed NVIDIA–Arm acquisition abandoned,CLM-016,SRC-039
+EV-006,2022-10-13,2022-10-13,day,documented,policy,BIS publishes advanced computing and semiconductor manufacturing controls,CLM-017,SRC-015
+EV-007,2023-10-25,2023-10-25,day,documented,policy,BIS publishes advanced computing and end-use control updates,CLM-017,SRC-016
+EV-008,2025-04,,month,attributed,policy,NVIDIA says it was informed of an H20 export license requirement,CLM-012,SRC-010
+EV-009,2026-01-15,2026-01-15,day,documented,policy,Conditional BIS license review rule takes effect,CLM-011,SRC-014
+EV-010,2026-03-23,2026-05-12,day,documented,governance,Measurement date for Huang beneficial ownership in proxy,CLM-008,SRC-012
+EV-011,2026-11-08,2026-11-08,day,attributed,governance,NVIDIA announces independent board inquiry,CLM-003,SRC-004
+EV-012,2026-11-11,2026-11-12,day,documented,governance,Board accepts resignation and appoints interim CEO and board chair,CLM-001,SRC-001
+EV-013,2026-11-17,2026-11-17,day,documented,financials,NVIDIA releases fiscal Q3 FY2027 results,CLM-010,SRC-013
+EV-014,2026-11-22,2026-11-23,day,documented,governance,Board reinstates Huang as president and CEO and director,CLM-002,SRC-002
+EV-015,2026-11-23,2026-11-23,day,attributed,governance,NVIDIA says the inquiry continues and describes new compliance oversight,CLM-003,SRC-003
+EV-016,2026-11-24,2026-11-24,day,documented,policy,House ranking member calls for open hearing and five senators issue a separate statement,CLM-020,SRC-033
+EV-017,2026-11-25,2026-11-25,day,documented,policy,Senator Booker publicly requests information from NVIDIA,CLM-007,SRC-007
+EV-018,2026-12-01,2026-11-17,day,scheduled,policy,Huang House transcribed interview scheduled,CLM-005,SRC-005
+EV-019,2026-12-02,2026-11-17,day,scheduled,policy,Teter House transcribed interview scheduled,CLM-005,SRC-005
+EV-020,2026-12-03,,day,scheduled,policy,Huang listed as witness at Senate Banking public hearing,CLM-006,SRC-006
+EV-021,2026-11-10,2026-11-10,day,attributed,governance,NVIDIA says independent board members retained outside counsel,CLM-024,SRC-038
+EV-022,2026-11-17,2026-11-17,day,attributed,governance,Board chair says the board does not then intend to reinstate Huang,CLM-022,SRC-036
+EV-023,2026-11-19,2026-11-19,day,documented,policy,BIS publishes remote access interim final rule,CLM-023,SRC-037
+EV-024,1999,,year,documented,technology,NVIDIA releases GeForce 256,CLM-038,SRC-021
+EV-025,2008-03-01,2008-03-01,day,documented,technology,NVIDIA researchers publish Scalable Parallel Programming with CUDA,CLM-043,SRC-022
+EV-026,2016-04-05,2016-04-05,day,documented,technology,NVIDIA announces the DGX-1 system,CLM-038,SRC-054
+EV-027,2022-03-22,2022-03-22,day,documented,technology,NVIDIA announces Hopper architecture and H100,CLM-038,SRC-055
+EV-028,2024-03-18,2024-03-18,day,documented,technology,NVIDIA announces Blackwell platform,CLM-038,SRC-056
+EV-029,2025-01-15,2025-01-15,day,documented,policy,BIS publishes the AI Diffusion framework,CLM-032,SRC-044
+EV-030,2025-05-13,2025-05-13,day,documented,policy,BIS announces planned rescission and non-enforcement of the AI Diffusion Rule,CLM-032,SRC-045
+EV-031,2026-11-11,2026-11-11,day,documented,policy,Two senators request preservation of NVIDIA export-related records,CLM-035,SRC-048
+EV-032,2026-11-16,2026-11-16,day,documented,policy,BIS announces its remote-access interim final rule,CLM-041,SRC-061
+EV-033,2026-11-19,2026-11-19,day,documented,policy,California Attorney General announces an investigative subpoena to NVIDIA,CLM-034,SRC-047
+EV-034,2026-11-16,2026-11-16,day,attributed,technology,NVIDIA marks 20 years of CUDA and announces the Vera CPU rack-scale platform at SC26,CLM-039,SRC-053
+EV-035,2026-11-17,2026-11-17,day,attributed,technology,NVIDIA reports initial Vera Rubin NVL72 shipments,CLM-039,SRC-013
+EV-036,2025-12-09,2025-12-09,day,attributed,technology,Computer History Museum publishes its Jensen Huang oral history,CLM-036,SRC-049
+EV-037,2025-04-15,2025-04-15,day,attributed,policy,NVIDIA discloses the H20 export licensing notification in Form 8-K,CLM-033,SRC-046
+EV-038,2026-11-23,2026-11-25,day,documented,policy,BIS Entity List additions take effect under a rule published two days later,CLM-044,SRC-066
+EV-039,1997-04,,month,documented,technology,NVIDIA launches RIVA 128,CLM-045,SRC-068
+EV-040,2024-12-02,2024-12-05,day,documented,policy,BIS manufacturing and advanced-computing refinements take effect,CLM-046,SRC-069
+EV-041,2025-01-16,2025-01-16,day,documented,policy,BIS publishes additional due diligence measures for advanced computing integrated circuits,CLM-047,SRC-070

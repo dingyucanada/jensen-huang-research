@@ -20,3 +20,11 @@ The watcher accepts only scheduled and manual runs on the default branch. It pro
 On a machine with network access, run `SEC_CONTACT=research@example.org python3 scripts/edgar_watch.py` using your actual project contact. For an offline trial, pass `--fixture tests/fixtures/edgar.json --date 2026-11-30 --output /tmp/edgar-candidates.csv`. Fixture filings are synthetic.
 
 Scheduled source reachability runs separately. They fail on confirmed 404 or 410 responses and report blocked, throttled or unavailable hosts for editorial review. GitHub may pause schedules on inactive public repositories. [SEC data API](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) · [GitHub workflow token](https://docs.github.com/en/actions/concepts/security/github_token) · [GitHub scheduling](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows)
+
+## Federal Register intake
+
+The [chip policy tracker](../docs/chip-policy-tracker.md) has a separate discovery workflow. On weekdays it searches the Federal Register API for BIS material matching advanced computing or semiconductors, starting at the later of the configured floor date or the last 60 days. It keeps prior unresolved items, skips reviewed document IDs, and fails safely on an incomplete API result. It stores metadata and a document link in the [review queue](federal-register-candidates.csv). It makes no edits to research pages, evidence, the public briefing or the timeline.
+
+Set `ENABLE_POLICY_WATCH` to `true` after default-branch protection and Actions pull request permissions are in place. The draft branch prefix is `bot/policy/`. Close an out-of-scope item by adding its document ID and reason to [federal-register-dispositions.csv](federal-register-dispositions.csv). For a relevant item, confirm the publication text, date and scope, then record the original source and update the tracker in a separate editorial PR. The collector needs no API key. [Federal Register API documentation](https://www.federalregister.gov/developers/documentation/api/v1)
+
+The congressional event schedule is reviewed manually against primary committee records. The rule feed cannot confirm interviews, testimony or hearings.
