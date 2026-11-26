@@ -2,7 +2,7 @@
 
 An independent research repository on Jensen Huang, NVIDIA, and the institutions shaping AI infrastructure. Trace who did what, when it became public, and which source supports each claim.
 
-**Evidence reviewed through November 26, 2026 · v0.1.0**
+**Evidence reviewed through November 26, 2026 · v0.1.1**
 
 [Governance timeline](docs/timeline.md) · [Evidence ledger](sources/evidence.md) · [Reproducible metrics](docs/metrics.md) · [Latest briefing](docs/brief-2026-11-26.md)
 

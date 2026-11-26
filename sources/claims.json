@@ -260,8 +260,8 @@
         "locator": "Opening announcement"
       },
       {
-        "source_id": "SRC-017",
-        "locator": "Case summary and chronology"
+        "source_id": "SRC-039",
+        "locator": "Opening statement and Phase 2 inquiry summary"
       }
     ],
     "boundary": "Use the completed and abandoned transaction statuses independently.",

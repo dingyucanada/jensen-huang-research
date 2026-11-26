@@ -177,7 +177,7 @@ NVIDIA completed its Mellanox acquisition in 2020. NVIDIA and SoftBank abandoned
 **Evidence boundary.** Use the completed and abandoned transaction statuses independently.
 
 - [SRC-024](<https://nvidianews.nvidia.com/news/nvidia-completes-acquisition-of-mellanox-creating-major-force-driving-next-gen-data-centers>) · NVIDIA Newsroom · 2020-04-27 · Opening announcement
-- [SRC-017](<https://www.ftc.gov/legal-library/browse/cases-proceedings/2110015-nvidiaarm-matter>) · Federal Trade Commission · publication date unavailable · Case summary and chronology
+- [SRC-039](<https://www.gov.uk/government/news/nvidia-abandons-takeover-of-arm-during-cma-investigation>) · UK Competition and Markets Authority · 2022-02-08 · Opening statement and Phase 2 inquiry summary
 
 ## CLM-017
 
